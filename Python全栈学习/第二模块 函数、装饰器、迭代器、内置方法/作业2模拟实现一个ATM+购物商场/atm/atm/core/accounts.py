@@ -26,7 +26,7 @@ def load_current_balance(account_id):
     #     return  acc_data
 def dump_account(account_data):
     '''
-    after updated transaction or account data , dump it back to file db
+    after updated transaction or account db , dump it back to file db
     :param account_data:
     :return:
     '''

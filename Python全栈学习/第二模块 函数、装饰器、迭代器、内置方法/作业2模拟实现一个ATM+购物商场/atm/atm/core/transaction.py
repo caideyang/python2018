@@ -11,7 +11,7 @@ from core import logger
 def make_transaction(log_obj,account_data,tran_type,amount,**others):
     '''
     deal all the user transactions
-    :param account_data: user account data
+    :param account_data: user account db
     :param tran_type: transaction type
     :param amount: transaction amount
     :param others: mainly for logging usage

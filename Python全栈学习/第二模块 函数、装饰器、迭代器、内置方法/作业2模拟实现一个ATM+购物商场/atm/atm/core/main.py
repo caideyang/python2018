@@ -20,7 +20,7 @@ trans_logger = logger.logger('transaction')
 access_logger = logger.logger('access')
 
 
-#temp account data ,only saves the data in memory
+#temp account db ,only saves the db in memory
 user_data = {
     'account_id':None,
     'is_authenticated':False,

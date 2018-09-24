@@ -6,8 +6,8 @@
 
 import re
 #
-# data = open('log_test.log','r')
-# for line in data:
+# db = open('log_test.log','r')
+# for line in db:
 #     if re.match('INFO',line):  #match从开头开始匹配
 #         print(line)
 

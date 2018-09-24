@@ -26,7 +26,7 @@ def acc_auth(account, password, type='shopping'):
     if os.path.isfile(file_name):
         with open(file_name, 'r') as f:
             data = json.load(f)
-            # print(data)
+            # print(db)
         if account == (data['account'] if type=='shopping' else str(data['id'])) and password == data['password']:
             print("账户验证成功！")
             return data

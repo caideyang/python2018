@@ -4,8 +4,8 @@
 
 
 
-# data = shelve.open('test_shelve.db')
-# print(data)
+# db = shelve.open('test_shelve.db')
+# print(db)
 #
 # if __name__ == "__main__":
 #     pass

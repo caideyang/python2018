@@ -11,14 +11,14 @@ data = [1,3,5,6,7,11,13,15,21,34,45,56,67,76,87,121,134,145,156,176,189]
 #     print(l)
 #     if l <= 1:
 #         return index
-#     if data[index] == value:
+#     if db[index] == value:
 #         return index
-#     elif data[l] < value:
+#     elif db[l] < value:
 #         return func(index,value,L[index:])
 #     else:
 #         return func(index,value,L[0:index])
 #
-# print(func(0,3,data))
+# print(func(0,3,db))
 
 
 def binarySearch(nums, target):
@@ -34,7 +34,7 @@ def binarySearch(nums, target):
             return middle
     return  -1
 
-# print(binarySearch(data,76))
+# print(binarySearch(db,76))
 
 
 start = 0

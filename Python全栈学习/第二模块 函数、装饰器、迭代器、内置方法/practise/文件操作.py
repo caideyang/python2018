@@ -4,9 +4,9 @@
 
 
 # f = open('test','rb')
-# data = f.read()
-# print(data)
-# print(data.decode('utf-8'))
+# db = f.read()
+# print(db)
+# print(db.decode('utf-8'))
 # f.close()
 
 # encode ：编码
@@ -27,8 +27,8 @@
 #
 # f = open('test.txt','r+',encoding='utf-8')
 # # f.write("\n岳妮妮 	深圳	177	54	18835324553")
-# # data = f.read()
-# # print(data)
+# # db = f.read()
+# # print(db)
 # import time
 # while True:
 #     f.write("\n哈哈哈哈哈7")

@@ -61,7 +61,7 @@ def acc_auth2(account,password):
     '''
     db_api = db_handler.db_handler()
     data = db_api("select * from accounts where account=%s" % account)
-    # print(data)
+    # print(db)
     if data['status'] == 1:
         print("账户[%s]为冻结状态，需要先解冻！" % account)
         return
@@ -79,7 +79,7 @@ def acc_auth2(account,password):
 def acc_login(user_data,log_obj):
     '''
     account login func
-    :user_data: user info data , only saves in memory
+    :user_data: user info db , only saves in memory
     :return:
     '''
     retry_count = 0

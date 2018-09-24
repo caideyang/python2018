@@ -1,0 +1,46 @@
+文件操作
+f = open(file_name,mode,encoding)
+f.readlines()
+f.read()
+f.seek()
+f.write()
+f.close()
+f.flush()
+
+函数：
+实参：函数调用时
+形参：函数定义时
+嵌套函数：
+作用域： 查找顺序：
+匿名函数：lambda
+递归函数：
+高阶函数：函数内以其他函数的名称为参数或者返回值为一个函数名
+装饰器函数：在符合开闭原则的基础上，给程序加功能。
+闭包：在函数内部定义函数，内部函数在执行时调用外部函数的变量，外部函数执行时以内部函数名为返回结果
+内置方法：
+列表生成式：L= [x * x for x in range(10]
+生成器：yield 类似于return
+可迭代对象：
+迭代器：itertor  有next()方法
+
+常用模块
+time 时间模块
+datetime  日期模块
+random
+os
+sys
+shutil
+zipfile
+tarfile
+json  主要是dump  load方法
+pickle 用法同json模块
+xml模块
+configparser模块
+hashlib模块
+subprocess模块
+logging
+re
+
+
+
+
