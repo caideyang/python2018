@@ -1,0 +1,646 @@
+*{
+    /*清除默认格式*/
+    padding: 0;
+    margin: 0;
+}
+
+.site-bar{
+    width: 100%;
+    height: 120px;
+    /*display: block;*/
+    background-position: center 0;
+    /*background-color: yellow;*/
+}
+.site-bar-link{
+    width: 100%;
+    height: 120px;
+}
+.site-topbar{
+    width: 100%;
+    height: 40px;
+    background-color: #333;
+    line-height: 40px; /* 设置以后，文字部分可以上下剧中显示*/
+
+}
+.container{
+    width: 1226px;
+    margin: auto;
+    clear: both;
+    /*height: 40px;*/
+    /*background-color: black;*/
+}
+.topbar-nav{
+    float: left;
+    /*width: 491.28px;*/
+    height: 40px;
+    /*line-height: 40px; !* 设置以后，文字部分可以上下剧中显示*!*/
+    /*background-color: aqua;*/
+}
+.topbar-info{
+    float:right;
+    width: 150px;
+    height: 40px;
+    /*line-height: 40px; !* 设置以后，文字部分可以上下剧中显示*!*/
+    /*background-color: aqua;*/
+}
+.topbar-cart{
+    float: right;
+    width: 120px;
+    height: 40px;
+    display: block;
+    background: #424242;
+    /*line-height: 40px; !* 设置以后，文字部分可以上下剧中显示*!*/
+    /*background-color: azure;*/
+}
+.site-header{
+    width: 100%;
+    height: 80px;
+    /*background-color: aliceblue;*/
+}
+.header-logo{
+        margin-top: 23px;
+}
+.logo{
+    float: left;
+    height: 55px;
+    width: 62px;
+    /*background-color: yellow;*/
+    /*background-image: url(../images/logo.jpg);*/
+    /*background: url(../images/logo.jpg) no-repeat 50% 50%;*/
+}
+.header-nav{
+    float: left;
+    width: 850px;
+    height: 90px;
+    margin-left: 2px;
+    /*background-color: black;*/
+
+}
+.doodle{
+    float: left;
+    width: 165px;
+    height: 90px;
+    margin-top: 15px;
+    /*background-color: yellow;*/
+    /*background: url("../images/cyj2.jpg") no-repeat 50% 50%;*/
+}
+.nav-list{
+    width: 685px;
+    float: left;
+    height: 90px;
+    /*line-height: 100px;*/
+    /*background-color: grey;*/
+}
+.header-search{
+    width: 296px;
+    height: 50px;
+    line-height: 50px;
+    float: right;
+    margin-top: 25px;
+    /*background-color: green;*/
+}
+.site-fs{
+    width: 100%;
+    height: 475px;
+    /*background-color: aliceblue;*/
+}
+.site-category{
+    width: 234px;
+    height: 460px;
+    float: left;
+    background-color: rgba(0,0,0,0.6);
+
+}
+.site-slide{
+    width: 992px;
+    height: 460px;
+    float: left;
+}
+.slide{
+    width: 992px;
+    height: 460px;
+    z-index: 1;
+    /*background-color: steelblue;*/
+}
+.site-main{
+    width: 1226px;
+    /*height: 740px;*/
+    height: auto;
+    margin: auto;
+
+    /*background-color: azure;*/
+}
+.home-hero-sub{
+    width: 1226px;
+    height: 170px;
+}
+.home-channel-list{
+    width: 234px;
+    height: 170px;
+    float: left;
+    margin-top: 12px;
+
+}
+.home-channel{
+    border: solid;
+    border-width: 1px;
+    border-color: wheat;
+    width: 76px;
+    height: 83px;
+    line-height: 83px;
+    /*align-content: center;*/
+    float: left;
+    color: #e0e0e0;
+    background-color: #5f5750;
+}
+.product-list{
+    width: 992px;
+    height: 170px;
+    float: right;
+    margin-top: 12px;
+    /*background-color: blue;*/
+}
+.hot-product{
+    display: block;
+    width: 316px;
+    height: 170px;
+    float: right;
+    margin-left: 14px;
+    background-color: green;
+}
+
+.countdown{
+    width: 234px;
+    height: 340px;
+    float: left;
+    background-color: #f1eded;
+    text-align: center;
+
+}
+
+.xm-plain-box{
+    margin-top: 20px;
+    /*background-color: grey;*/
+    /*width: 1226px;*/
+    height: 430px;
+}
+.h2-title{
+    /*width: 1000px;*/
+    height: 42px;
+    margin-top: 20px;
+    float: left;
+    font-size: 16px;
+    color: #adafb4;
+}
+.more{
+    width: 95px;
+    height: 42px;
+    margin-top: 20px;
+    float: right;
+}
+.box-hd{
+    width: 1226px;
+    height: 42px;
+}
+.box-hd2{
+    width: 1226px;
+    height: 350px;
+    clear: both;
+    /*background-color: yellow;*/
+}
+.countdown{
+    border:solid;
+    border-width: 2px;
+    border-color: #f1eded;
+    border-top-color: red;
+    background-color: #f1eded;
+    width: 234px;
+    height: 340px;
+    float: left;
+}
+.second-kill{
+    border: solid;
+    border-width: 2px;
+    border-color: #f1ede1;
+    border-top-color: red;
+    background-color: #f1ede1;
+    width: 234px;
+    height: 340px;
+    float: right;
+    margin-left: 5px;
+}
+.home-banner-box{
+    width: 1226px;
+    height: 120px;
+    /*float: left;*/
+    /*margin-top: 5px;*/
+    background-color: grey;
+}
+.page-main{
+    width: 100%;
+    height: auto;
+    background-color:#f5f5f5;
+}
+.cellphone-area{
+    /*background-color: green;*/
+}
+.cellphone-head{
+        height: 40px;
+}
+.cellphone-list{
+    height: 620px;
+}
+.main-cellphone{
+    width: 234px;
+    height: 610px;
+    background-color: steelblue;
+    float: left;
+}
+.cellphone, .appliance{
+    width: 234px;
+    height: 300px;
+    background-color: white;
+    float: right;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.home-appliances-area{
+    height: 680px;
+    /*background-color: yellow;*/
+}
+.main-appliances{
+    width: 234px;
+    height: 614px;
+    float: left;
+    margin-left: 1px;
+
+}
+.main-appliance{
+    width: 234px;
+    height: 300px;
+    float: left;
+    background-color: red;
+    margin-bottom: 10px;
+}
+.appliance-category{
+    width: 280px;
+    height: 42px;
+    margin-top: 20px;
+    float: right;
+    /*background-color: red;*/
+}
+.category{
+    width: auto;
+    height: 42px;
+    float: right;
+    /*background-color: red;*/
+    margin-left: 8px;
+    /*margin-top: 5px;*/
+}
+.category a{
+    color: #333333;
+}
+.appliance2{
+    width: 234px;
+    height: 143px;
+    float: left;
+    margin-bottom: 14px;
+    background-color: white;
+}
+.recommend{
+    height: 358px;
+    /*background-color: yellow;*/
+}
+.recommend-product{
+    border: solid;
+    border-top-color: red;
+    background-color: green;
+    width: 234px;
+    height: 280px;
+    float: right;
+    margin-left: 5px;
+}
+.hot-comment-area{
+    height: 520px;
+}
+.hot-comment-product{
+    border: solid;
+    border-top-color: red;
+    background-color: green;
+    width: 296px;
+    height: 415px;
+    float: right;
+    margin-left: 4px;
+}
+.site-footer{
+    width: 100%;
+    height: 272px;
+    clear: both;
+    margin-top: 15px;
+}
+.footer-service{
+    height: 25px;
+    padding: 27px  0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.list-service{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.footer-service .list-service li{
+    float: left;
+    height: 25px;
+    width: 19.8%;
+    text-align: center;
+    border-left: 1px solid #e0e0e0;
+}
+.footer-service .list-service .first-service{
+    border-left: none;
+}
+.footer-links{
+    padding: 40px 0;
+    /*height: 192px;*/
+    /*background-color: yellow;*/
+}
+.col-links{
+    float: left;
+    width: 160px;
+    height: 112px;
+    margin: 0;
+}
+.col-links dt {
+    margin: -1px 0 26px;
+    font-size: 15px;
+    line-height: 1.25;
+    color: #424242;
+}
+.col-links dd {
+    margin: 10px 0 0;
+    font-size: 13px;
+}
+ .col-contact {
+    float: right;
+    width: 251px;
+    height: 112px;
+    border-left: 1px solid #e0e0e0;
+    text-align: center;
+    color: #616161;
+}
+ .site-info {
+     width: 100%;
+     /*height: 200px;*/
+    padding: 30px 0;
+    font-size: 12px;
+    background: #fafafa;
+}
+ .info-text {
+    float: left;
+    color: #b0b0b0;
+}
+ .site-info .info-text p {
+    margin: 0;
+    line-height: 18px;
+}
+ span.sep{
+    margin: 0 .25em;
+    font-family: sans-serif;
+ }
+ .info-links {
+    float: right;
+    height: 28px;
+     /*width: 435px;*/
+    margin: 4px 0 0;
+     /*background-color: green;*/
+}
+ .info-link{
+     margin-left: 5px;
+ }
+
+ .slogan{
+     clear: both;
+     margin: 30px auto 0;
+    width: 267px;
+    height: 19px;
+    /*background: url(../i/slogan2016.png) no-repeat center 0;*/
+ }
+ a{
+     text-decoration: none; /* 去掉a标签的下划线*/
+     color: #b0b0b0;
+    /*font-size: 13px;*/
+ }
+.topbar-nav a,.topbar-info a, .topbar-cart a{
+    color: #b0b0b0;
+    font-size: 13px;
+}
+.nav-list ul li a{
+    font-size: 16px;
+    color: #333333;
+}
+.nav-item{
+    float: left;
+    padding: 36px 10px 38px;
+}
+/*.search-form{*/
+    /*width: 296px;*/
+    /*height: 50px;*/
+/*}*/
+.search-text{
+    border-color: #b0b0b0;
+    /*box-sizing: content-box;*/
+}
+
+ul{
+    list-style-type: none;
+}
+.site-category-list{
+    font-size: 15px;
+    color: #b0b0b0;;
+    padding: 20px 0 0 30px;
+    /*padding-left: 30px;*/
+
+}
+.category-item{
+    height: 42px;
+    line-height: 42px;
+
+}
+.last-slide-icon{
+    height: 460px;
+    width: 40px;
+    line-height: 460px;
+    float: left;
+    z-index: 999;
+}
+.next-slide-icon{
+    height: 460px;
+    width: 40px;
+    line-height: 460px;
+    float: right;
+    z-index: 999;
+}
+
+.hot-product img {
+    width: 316px;
+    height: 170px;
+}
+.time-title{
+    font-size: 21px;
+    color: #ef3a3b;
+    padding-top: 45px;
+}
+.countdown img{
+    padding-top: 25px;
+}
+.time-text{
+    padding-top: 15px;
+    color: rgba(0,0,0,0.54);
+}
+.countdown-inner1{
+    clear: both;
+    margin: 30px;
+    width: 168px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    /*background-color: #333333;*/
+}
+.countdown-inner2{
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    background-color: #5f5750;
+    float: left;
+}
+.countdown-inner3{
+    width: 9px;
+    height: 50px;
+    font-size: 22px;
+    float: left;
+}
+
+.flag{
+    background-color: #e53935;
+    top: 0;
+    width: 64px;
+    height: 20px;
+    margin-left: 35%;
+    line-height: 20px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+}
+.flag-appliance{
+    background-color: white;
+
+}
+
+.second-kill div a img{
+    margin-top: 20px;
+    margin-left: 15%;
+    width: 160px;
+    height: auto;
+}
+h5 .title {
+    color: #212121;
+    /*margin: 0 20px 3px;*/
+    /*font-size: 14px;*/
+    /*font-weight: 400;*/
+    /*text-align: center;*/
+    margin: 10px 20px 3px;
+    font-size: 14px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+}
+
+.kill-text{
+    padding-top: 25px;
+    text-align: center;
+}
+.kill-text a{
+    color: #333;
+}
+div .desc, div .price{
+    padding-top: 10px;
+    font-size: 13px;
+    text-align: center;
+}
+div .price span{
+    color: red;
+}
+.home-banner-box a img{
+    width: 1226px;
+    height: auto;
+}
+.main-cellphone a img, .main-appliance a img{
+    width: 234px;
+    height: auto;
+}
+.cellphone div a img{
+    margin-top: 10px;
+    margin-left: 15%;
+    width: 160px;
+    height: auto;
+}
+
+.cellphone-text{
+    padding-top: 15px;
+    text-align: center;
+}
+.cellphone-text a{
+    color: #333;
+}
+.cellphone .new,.appliance .new{
+    background-color: green;
+}
+.cellphone{
+    background-color: white;
+}
+.appliance div a img{
+    margin-top: 5px;
+    margin-left: 25px;
+    width: 170px;
+    height: auto;
+}
+
+.appliance2-left{
+    margin-top: 20px;
+    /*background-color: #dadada;*/
+    float: left;
+    width: 154px;
+}
+.appliance2-right{
+    margin-top: 20px;
+    float: left;
+    width: 80px;
+}
+.appliance .appliance2-right a img{
+    margin-left: 0;
+    width: 80px;
+    height: auto;
+}
+.appliance-divide{
+    background-color: #f5f5f5;
+}
+#appliance-extra{
+    background-color: #f5f5f5;
+}
+p.phone{
+    color: #ffc34f;
+    font-size: 26px;
+}
+p.cellphone-time{
+    /*margin-top: 20px;*/
+    font-size: 12px;
+}
+ .contract-customer-service{
+     margin-top: 20px;
+     margin-left: 30%;
+     width: 100px;
+     height: 30px;
+     line-height: 30px;
+     border: 2px solid #ff0000;
+}

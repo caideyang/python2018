@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="application/javascript">
+        // var username = 'caideyang';
+        // var password = "1234567";
+        // if (username=='caideyang' && password=='123456'){
+        //     console.log("用户名密码正确");
+        // }else {
+        //     console.log("用户名或密码错误！")
+        // }
+        // var score = 90;
+        // switch (score/10){
+        //     case 8:
+        //         console.log("C");
+        //         break;
+        //     case 9:
+        //         console.log("B");
+        //         break;
+        //     default:
+        //         console.log("A");
+        //         break;
+        // }
+        // var i = 1; //初始化循环变量
+        // while (i <100){//判断循环条件
+        //     alert(i);
+        //     i +=1;//更新循环条件
+        // }
+        // //不管有没有满足while中的条件do里面的代码都会走一次
+        // var i = 3;//初始化循环变量
+        //     do{
+        //
+        //     console.log(i)
+        //     ++i;//更新循环条件
+        //
+        // }while (i<10) //判断循环条件
+        // for (var i =0;i<10;i++){
+        //     console.log(i)
+        // }
+        // for (var i=0;i<10;i++){
+        //     for (var j=0;j<i;j++){
+        //         document.write("*");
+        //     }
+        //     document.write("<br>");
+        // }
+        // for(var i=1;i<=3;i++){
+        //
+        //  　　for(var j=0;j<6;j++){
+        //         document.write('*')
+        //     }
+        //
+        //    document.write('<br>')
+        // //  }
+        // for(var i=1;i<=6;i++){ //控制行数，一共显示6行 记得换行document.write('<br>');
+        //
+        //     //控制我们的空格数
+        //     for(var s=i;s<6;s++){
+        //         document.write('&nbsp;');
+        //     }
+        //     //控制每行的输出*数
+        //     for(var j=1;j<=2*i-1;j++){
+        //         document.write('*');
+        //     }
+        //     document.write('<br>');
+        // }
+        // var colors = ['red','green','yellow']; //字面量方式创建
+        // var colors = new Array(); //使用构造函数（后面会讲）的方式创建 使用new关键词对构造函数进行创建对象,
+        // //通过下标进行赋值
+        // colors[0] = 'red';
+        // colors[1] = 'green';
+        // colors[2] = 'yellow';
+        // console.log(colors);
+        // var a  = 13.123;
+        // var c = 13.14;
+        // var d = 13.23;
+        // var b = Math.max(a,c,d);
+        // console.log(b);
+        // var a = Math.random();
+        // console.log(a);
+        // min = 100;
+        // max = 200;
+        // var random_num = Math.floor(min + (max - min) * Math.random()); //生成100到200之间的随机数
+        // console.log(random_num);
+        // function add(a,b) {
+        //     return a+b;
+        // }
+        // console.log(add(10,20))
+        // function f(name,age,salary) {
+        //     console.log(arguments);         //Arguments { 0: "caideyang", 1: 18, 2: 20000, … }
+        //     console.log(arguments.length);  //获取形参的个数 3
+        //     console.log(f.length);          //获取实参的个数 3
+        // }
+        // f("caideyang",18,20000);
+        // function f(a,b,c) {
+        //     arguments[0] = 99;
+        //     arguments.push(8)
+        // }
+        // var arr = [1,2,3,4,5,6,'7'];
+        // // arr.splice(0);   //方式1：删除数组中所有项目
+        // // arr.length = 0;  //方式2：length属性可以赋值，在其它语言中length是只读
+        // arr = [];           //方式3：推荐
+        // console.log(arr);
+        // var student = new Object();
+        // student.name = 'caideyang';
+        // student.age = 31;
+        // console.log(student) //{ name: "caideyang", age: 31 }
+        function createObject(name, age) {
+            var obj = new Object();
+            obj.name = name;
+            obj.age = age;
+            return obj;
+        }
+        stu1 = createObject('caideyang', 31);
+        stu2 = createObject('deyangcai', 31);
+        console.log(stu1, stu2); //Object { name: "caideyang", age: 31 }   Object { name: "deyangcai", age: 31 }
+
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
