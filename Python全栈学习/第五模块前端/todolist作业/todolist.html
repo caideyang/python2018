@@ -7,45 +7,40 @@
     <link rel="stylesheet" href="css/todolist.css" type="text/css">
 </head>
 <body>
+<!--
+参考链接http://www.todolist.cn/
+1.将用户输入添加至待办项
+2.可以对todolist进行分类（待办项和已完成组），用户勾选既将待办项分入已完成组
+3.todolist的每一项可删除和编辑
+4.下方有clear按钮，并清空所有todolist项
+-->
 <div class="todo-main">
     <div class="add-todo">
-        <form action="#" method="get">
-            <input type="text" name="todo-text" class="todo-text"  placeholder="添加todo">
-            <input type="submit" class="todo-text-submit" value="添加"></input>
-        </form>
+        <!--<form action="#" method="get">-->
+        <input type="text" name="todo-text" id="new-task"  placeholder="添加todo">
+        <input type="button" id="add-btn" value="添加">
+        <!--</form>-->
     </div>
-    <div class="todo-task">
-        <h1>未完成任务<span class="todo-count">0</span></h1>
-        <ol class="todo-list" type="none">
-            <li>1</li>
-            <li>1</li>
-            <li>1</li>
-            <li>1</li>
-            <li>1</li>
-            <li>1</li>
-            <li>1</li>
-            <li>1</li>
+    <div id="todo-task-div">
+        <h1>未完成任务<span id="todo-count">0</span></h1>
+        <ol id="todo-list">
+
         </ol>
         <div class="clear-todolist">
-            <button class="clear-todolist-btn">清空</button>
+            <!--<button id="clear-todolist-btn" onclick="clear_task('todo-list', 'todo-task')">清空</button>-->
+            <button id="clear-todolist-btn" onclick="delectAll('todo-list','todo-count')">清空</button>
         </div>
 
     </div>
-    <div class="finished-task">
-        <h1>已完成任务<span class="finished-count">0</span></h1>
-        <ol class="finished-list" type="none">
-            <li>1</li>
+    <div id="finished-task">
+        <h1>已完成任务<span id="finished-count">0</span></h1>
+        <ol id="finished-list">
             <li>2</li>
             <li>3</li>
-            <li>3</li>
-            <li>3</li>
-            <li>3</li>
-            <li>3</li>
-            <li>3</li>
-            <li>3</li>
+
         </ol>
         <div class="clear-finished-list">
-            <button class="clear-finished-list-btn">清空</button>
+            <button id="clear-finished-list-btn" onclick="delectAll('finished-list', 'finished-count')">清空</button>
         </div>
     </div>
 </div>
