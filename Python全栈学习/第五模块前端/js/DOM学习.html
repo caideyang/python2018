@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM</title>
+</head>
+<body>
+    <!--<div id="box">11111111</div>-->
+    <!--<script type="application/javascript">-->
+        <!--window.onload = function(){-->
+            <!--//1.获取事件源(事件对象，在文档中一切的标签都是对象)-->
+            <!--// var oDiv = document.getElementById('box');-->
+            <!--var oDiv = document.getElementById('box');-->
+            <!--//2.事件-->
+            <!--oDiv.onclick = function(){-->
+                <!--//3.事件驱动程序  ps:记得 所有的style中使用的像margin-left 在js操作时都是用marginLeft属性进行赋值-->
+                <!--oDiv.style.backgroundColor = 'yellow';-->
+            <!--};-->
+        <!--};-->
+    <!--</script>-->
+    <!--<div id="box">1</div>-->
+    <!--<input type="text" value="alex" id="user">-->
+    <!--<script>-->
+        <!--window.onload = function () {-->
+            <!--//1.获取事件源(事件对象，在文档中一切的标签都是对象)-->
+            <!--var oDiv = document.getElementById('box');-->
+            <!--var oInput = document.getElementById('user');-->
+            <!--//2.事件-->
+            <!--oDiv.onclick = function () {-->
+                <!--//3.事件驱动程序-->
+                <!--oDiv.innerText = 'alex';//仅仅设置文本内容-->
+                <!--// oDiv.innerHTML = '<h1>alex</h1>' //将标签和文本内容一起解析-->
+            <!--};-->
+            <!--//2.事件-->
+            <!--oInput.onclick = function () {-->
+                <!--//3事件驱动程序，只有有value属性的，才能使用value赋值和设置值-->
+                <!--oInput.value = 'Caideyang';-->
+            <!--};-->
+        <!--};-->
+    <!--</script>-->
+    <!--<div  >11<img src="images\jd1.jpg" id="jd-img" alt=""></div>-->
+    <!--<script>-->
+        <!--//window.onload页面加载完毕以后再执行此代码-->
+        <!--window.onload = function () {-->
+            <!--//需求：鼠标放到img上，更换为另一张图片，也就是修改路径（src的值）。-->
+              <!--//1.获取事件源-->
+            <!--var oImg = document.getElementById("jd-img");-->
+            <!--//2.绑定事件(悬停事件：鼠标进入到事件源中立即出发事件)-->
+            <!--oImg.onmouseover = function () {-->
+                <!--//3.书写事件驱动程序(修改src)-->
+                <!--// oImg.src = 'images/logo.jpg';-->
+                <!--this.src = "images/qjds.jpg";-->
+            <!--};-->
+             <!--//2.绑定事件(鼠标离开事件：鼠标进入到事件源中立即出发事件)-->
+            <!--oImg.onmouseout = function () {-->
+                <!--oImg.src = 'images/logo.jpg';-->
+                <!--// this.src = "images/qjds.jpg";-->
+            <!--};-->
+        <!--};-->
+    <!--</script>-->
+    <script>
+        var a1 = document.createElement("li");
+        var a2 = document.createElement("abc");
+        console.log(a1); //<li></li>
+        console.log(a2); //<abc></abc>
+        console.log(typeof a1); //object
+        console.log(typeof a2); //object
+    </script>
+
+</body>
+</html>

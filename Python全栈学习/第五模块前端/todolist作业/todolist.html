@@ -2,47 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>todolist</title>
-    <script type="application/javascript" src="js/todolist.js"></script>
-    <link rel="stylesheet" href="css/todolist.css" type="text/css">
+    <title>Title</title>
+    <script type="application/javascript" src="js/todo.js"></script>
+    <link rel="stylesheet" href="css/todo.css">
 </head>
 <body>
-<!--
-参考链接http://www.todolist.cn/
-1.将用户输入添加至待办项
-2.可以对todolist进行分类（待办项和已完成组），用户勾选既将待办项分入已完成组
-3.todolist的每一项可删除和编辑
-4.下方有clear按钮，并清空所有todolist项
--->
-<div class="todo-main">
-    <div class="add-todo">
-        <!--<form action="#" method="get">-->
-        <input type="text" name="todo-text" id="new-task"  placeholder="添加todo">
-        <input type="button" id="add-btn" value="添加">
-        <!--</form>-->
-    </div>
-    <div id="todo-task-div">
-        <h1>未完成任务<span id="todo-count">0</span></h1>
-        <ol id="todo-list">
 
-        </ol>
-        <div class="clear-todolist">
-            <!--<button id="clear-todolist-btn" onclick="clear_task('todo-list', 'todo-task')">清空</button>-->
-            <button id="clear-todolist-btn" onclick="delectAll('todo-list','todo-count')">清空</button>
+
+    <div id="fide" class="black_overlay"></div>
+    <div class="todo-main">
+        <div class="add-todo">
+            <span></span>
+            <input type="text" id="task_content" name="task_content" placeholder="添加todo">
+            <input type="button" id="add-btn" name="btn" value="添加" onclick="add()">
+        </div>
+        <br>
+        <div></div>
+        <!--<input type="text" id="status" name="status">status-->
+        <div id="todo-task-div">
+            <div class="lists">未完成任务&nbsp;<span id="todo_task_count" class="counts"></span>项</div>
+
+            <ol id="todo_task_list"></ol>
+            <button class="clear-task" onclick="clear_data(false)">清除</button>
+        </div>
+        <div class="finished-task-div">
+            <div class="lists">已完成任务&nbsp;<span id="finished_task_count" class="counts"></span>项</div>
+
+            <ol id="finished_task_list"></ol>
+            <button class="clear-task" onclick="clear_data(true)">清除</button>
+
         </div>
 
     </div>
-    <div id="finished-task">
-        <h1>已完成任务<span id="finished-count">0</span></h1>
-        <ol id="finished-list">
-            <li>2</li>
-            <li>3</li>
-
-        </ol>
-        <div class="clear-finished-list">
-            <button id="clear-finished-list-btn" onclick="delectAll('finished-list', 'finished-count')">清空</button>
+    <div id="edit-task-content" class="edit-task-content">
+        <p>旧的值：<input type="text" id="old-content" class="edit-content"  name="old-content" value="" disabled="disabled" ></p>
+        <p>新的值：<input type="text" id="new-content" class="edit-content" name="new-content" value=""></p>
+        <div  id="edit-btn-div">
+            <button id="submit-edit" class="edit-btn" value="提交">提交</button>
+            <button id="console-edit" class="edit-btn" value="取消">取消</button>
         </div>
     </div>
-</div>
 </body>
 </html>

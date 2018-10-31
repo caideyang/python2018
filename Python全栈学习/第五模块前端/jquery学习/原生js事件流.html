@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="">
+    <style type="text/css"></style>
+    <!--<script type="text/javascript" src=""></script>-->
+</head>
+<body>
+<div><button id="btn">点击</button></div>
+<script type="text/javascript">
+    //addEventListener()方法有三个参数：第一个是事件的名称，第二个是事件触发的冒泡函数，第三个参数如果是True则事件为捕获阶段，如果是false则为冒泡阶段；
+    var oBtn = document.getElementById("btn");
+    oBtn.addEventListener('click', function (event) {
+        console.log("button事件捕获");
+    },true);
+    oBtn.addEventListener('click', function (event) {
+        console.log("button事件冒泡");
+        event.stopPropagation() //防止事件冒泡到DOM树上，也就是不触发的任何前辈元素上的事件处理函数。
+    },false);
+
+    document.addEventListener('click', function (event) {
+        console.log("document事件捕获");
+    },true);
+    document.addEventListener('click', function (event) {
+        console.log("document事件冒泡");
+    },false);
+
+    document.body.addEventListener('click', function (event) {
+        console.log("body事件捕获");
+    },true);
+    document.body.addEventListener('click', function (event) {
+        console.log("body事件冒泡");
+    },false);
+
+    document.documentElement.addEventListener('click', function (event) {
+        console.log("html事件捕获");
+    },true);
+    document.documentElement.addEventListener('click', function (event) {
+        console.log("html事件冒泡");
+    },false);
+</script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选项卡</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #tab{
+            width: 960px;
+            margin: 20px auto;
+            border: 1px solid red;
+            /*height: 400px;*/
+            /*background-color: #1994ff;*/
+        }
+        ul{
+            list-style: none;
+            width: 100%;
+            overflow: hidden;
+        }
+        #tab ul li{
+            float: left;
+            width: 160px;
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+            /*border: 1px solid gray;*/
+        }
+        #tab ul li.active{
+            background-color: red;
+        }
+        #tab p{
+            display: none;
+            height: 400px;
+            width: 960px;
+            text-align: center;
+            line-height: 200px;
+            background-color: red;
+        }
+        #tab p.active{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div id="tab">
+    <ul>
+        <li class=""><a href="#">首页</a></li>
+        <li><a href="#">新闻</a></li>
+        <li><a href="#">图片</a></li>
+        <li><a href="#">NBA</a></li>
+        <li><a href="#">亚洲美图</a></li>
+        <li><a href="#">欧美大片</a></li>
+    </ul>
+    <p class="">首页内容</p>
+    <p>新闻内容</p>
+    <p>图片内容</p>
+    <p>NBA内容</p>
+    <p>亚洲美图内容</p>
+    <p>欧美大片内容</p>
+</div>
+<script>
+    function $(id) {
+        return document.getElementById(id)
+    }
+    var oLis = document.getElementsByTagName('li');
+    var oPs = document.getElementsByTagName('p');
+    for (var i=0; i<oLis.length; i++){
+        oLis[i].index = i;
+        oLis[i].onmouseover = function(){
+            this.className = 'active';
+            oPs[this.index].className = 'active';
+        };
+        oLis[i].onmouseout = function () {
+            this.className = '';
+            oPs[this.index].className = '';
+
+        }
+    }
+</script>
+
+
+
+</body>
+</html>

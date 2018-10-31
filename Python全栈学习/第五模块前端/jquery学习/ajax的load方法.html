@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="">
+    <style type="text/css">
+        .active{
+            width: 200px;
+            height: 160px;
+            background: grey;
+            line-height: 160px;
+            text-align: center;
+            font-size: 15px;
+        }
+    </style>
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+</head>
+<body>
+<button>加载</button>
+<div id="box"></div>
+<ul></ul>
+
+<script type="text/javascript">
+    $(function () {
+        $("button").click(function () {
+            // $("#box").load("./test.html");
+            $.getJSON("./getJSON.json", function (data) {
+           var str = "";//初始化保存内容变量
+           $.each(data, function(index,ele) {
+              $('ul').append("<li>"+ele.name+"</li>")
+
+              });
+       })
+
+        });
+    });
+</script>
+</body>
+</html>

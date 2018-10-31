@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            display: none;
+            margin-top: 10px;
+            width: 100px;
+            height: 100px;
+            background: red;
+        }
+        div.active{
+            display: block;
+        }
+        button{
+            display: block;
+            width: 80px;
+            height: 30px;
+            background: aliceblue;
+        }
+        button.active{
+            background: gray;
+        }
+    </style>
+</head>
+<body>
+<!--<form action="#">-->
+    <!--<button id="btn1" class="active btn btn1">全选</button>-->
+    <!--<input type="checkbox" name="hobby" value="1">乒乓球-->
+    <!--<input type="checkbox" name="hobby" value="2">羽毛球-->
+    <!--<input type="checkbox" name="hobby" value="3">篮球-->
+    <!--<input type="submit" name="submit" value="提交">-->
+<!--</form>-->
+
+<button id="btn" class="">显示</button>
+<div>
+    这是一个div
+</div>
+<script type="application/javascript" src="jquery-3.3.1.js"></script>
+<script>
+    $(function () {
+        $('button').click(function () {
+
+            //attr()用法
+            // if ($(this).text() == "显示"){
+            //     $("div").attr("id","box"); //设置属性
+            //     console.log($("div").attr("id"));
+            //     $(this).text("隐藏");
+            // }else{
+            //     $("div").removeAttr("id"); //删除属性
+            //     $(this).text("显示");
+            // }
+
+            //prop()用法
+            // if ($(this).text()=="全选"){
+            //     $("input[type='checkbox']").prop("checked", true);
+            //     $(this).text("取消全选");
+            // } else {
+            //     $("input[type='checkbox']").prop("checked", false);
+            //     $(this).text("全选");
+            // }
+
+            //addClass() removeClass()用法
+            if ($(this).text() == "显示"){
+                $("div").addClass('active'); //设置class属性
+                $(this).addClass('active');
+                $(this).text("隐藏");
+            }else{
+                $("div").removeClass('active');
+                $(this).removeClass('active');
+                $(this).text("显示");
+            }
+
+
+        });
+
+    });
+</script>
+</body>
+</html>

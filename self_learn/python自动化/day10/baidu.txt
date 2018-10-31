@@ -1,0 +1,1854 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script id="allmobilize" charset="utf-8" src="http://a.yunshipei.com/b2f7c92731089ee90f2ecee00dbb7121/allmobilize.min.js"></script><meta http-equiv="Cache-Control" content="no-siteapp" /><link rel="alternate" media="handheld" href="#" />
+<meta charset='gb2312' />
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>51CTO.COM - 技术成就梦想 - 中国领先的IT技术网站</title>
+<meta name="description" content="中国领先的IT技术网站51CTO(www.51cto.com)是一个为CTO、IT技术经理、系统工程师、网络工程师、安全工程师、数据库工程师、网络管理员、开发工程师、项目管理人员等IT技术人员搭建的互动媒体平台，主要为IT技术人员提供新闻资讯、技术文档、BBS、博客、技术圈、培训课程、人才交流等专业服务。" />
+<meta name="keywords" content="技术新闻,职场培训,IT技术博客,软件,辞典,网址,专题,投稿,网络,系统应用,网络安全,网络编程,存储备份,操作系统,数据库,案例库,设备选型,资源中心,路由器,交换机,防火墙,服务器,局域网,DB2,Oracle,C++,JAVA,EBA,linux,Java,安全,漏洞,病毒,网管新闻,网络人物,网管入门,网络编程,系统构建,网络安全,操作系统,数据库,存储备份,设备采购,网管生活,职场学习" />
+<meta property="qc:admins" content="32070610676513476375" />
+<meta property="wb:webmaster" content="810c1090a043da8b" />  
+<meta name="msapplication-task" content="name=技术论坛;action-uri=http://bbs.51cto.com/;icon-uri=http://www.51cto.com/favicon.ico" />
+<meta name="msapplication-task" content="name=IT博客;action-uri=http://blog.51cto.com;icon-uri=http://www.51cto.com/favicon.ico" />
+<meta name="msapplication-task" content="name=下载中心;action-uri=http://down.51cto.com;icon-uri=http://www.51cto.com/favicon.ico" />
+<meta name="domain_verify" content="pmrgi33nmfuw4ir2ei2tcy3un4xgg33neiwcez3vnfsceorcge4gkmdcmrstenrrguztin3ggnqtambymezdimzvmq4dimlfmzrcelbcoruw2zktmf3gkir2ge2damryha4demjsgmzdc7i">
+<link rel="stylesheet" type="text/css" href="https://static5.51cto.com/51cto/cms/homepage/2015/css/layout.css" />
+<link rel="stylesheet" type="text/css" href="https://static3.51cto.com/51cto/cms/homepage/2015/css/home.css?v=1.2" />
+<script src="https://static1.51cto.com/51cto/cms/homepage/2015/js/jquery.js"></script>
+<script type="text/javascript" src="https://static1.51cto.com/51cto/cms/homepage/2015/js/slide.js"></script>
+    <style>
+    .home-top .subweb .sub_widthAuto{width:auto;}
+    .top-nav .nav li .topnavA_zxf{width:194px;left:-60px;}
+    .top-nav .topnavA_zxf a{padding: 0 10px;}
+    .top-nav .ctoclub a{padding: 0 53px;}
+    .top-nav .nav li:hover .topnavA_zxf a{width:auto;text-indent:inherit;}
+    .zxf_menubot{background:#F4F4F4;padding:15px 20px 0;border-top:4px solid #be0000;font-size:14px;}
+    .zxf_menubot a{padding:0;}
+    .zxf_menubot dl{margin-right:48px;_margin-right:40px;*margin-right:40px;}
+    .zxf_menubot .nmr{margin-right:0;}
+    .zxf_menubot dt,.zxf_menubot dd{float:left;}
+    .zxf_menulist li{float:left;text-align:left;margin-right:20px;}
+    .zxf_menulist a{display:block;margin-bottom:10px;}
+    .zxf_menulist li.nmr{margin-right:0;}
+    .zxf_menu_ico{width:28px;margin-right:20px;text-align:center;color:#666;}
+    .zxf_menu_ico img{display:block;margin:10px auto 10px;}
+    .redNav{color:#be0000;}
+    .subweb-list .navcodebox{ width:410px; left:-225px; padding:20px 15px;}
+    .subweb-list .navcodebox span{ width:136px;display:inline-block; float:left; text-align:center; color:#747474; font-size:13px; }
+    .subweb-list .navcodebox span p{ padding-top: 10px;color:#333;}
+
+    .rmzw_xx li a {
+        float: left;
+        font-size: 16px;
+        height: 23px;
+        line-height: 23px;
+        overflow: hidden;
+        width: 95%;
+    }
+    .rmzw_xx li span.ico {
+        background: rgba(0, 0, 0, 0) url("https://s2.51cto.com/wyfs02/M02/98/D8/wKiom1lBBebwbP2OAAAAuOBywqs269.png") no-repeat scroll left center;
+        float: left;
+        height: 22px;
+        line-height: 22px;
+        width: 15px;
+    }
+
+    .rmzw_xx li {
+        border-bottom: 1px dotted #ccc;
+        float: left;
+        margin-top: 6px;
+        padding: 5px 0;
+        width: 100%;
+    }
+
+    .ctoll1 dd a {
+        color: #343434;
+        float: left;
+        font-family: "Microsoft YaHei";
+        font-size: 14px;
+        padding: 15px 19px 0;
+    }
+</style>
+</head>
+<body>
+<div class="home-top">
+    <div class="w1001 cent">
+        <div class="pdr10 fl">中国领先的IT技术网站</div>
+        <div class="pdr10 fl">|</div>
+        <div class="pdr10 fl">
+            <div class="subweb"><span class="trans">技术频道</span><i></i>
+                <div class="subweb-list" style="width: 90px;">
+                    <a href="http://ai.51cto.com/" target="_blank">人工智能</a>
+                    <a href="http://cloud.51cto.com/" target="_blank">云计算</a>
+                    <a href="http://bigdata.51cto.com/" target="_blank">大数据</a>
+                    <a href="http://network.51cto.com/" target="_blank">网络</a>
+                    <a href="http://developer.51cto.com/" target="_blank">开发</a>
+                    <a href="http://netsecurity.51cto.com/" target="_blank">安全</a>
+                    <a href="http://os.51cto.com/" target="_blank">系统</a>
+                    <a href="http://mobile.51cto.com/" target="_blank">移动</a>
+                    <a href="http://server.51cto.com/" target="_blank">服务器</a>
+                </div>
+            </div>
+        </div>
+        <div class="pdr10 fl">|</div>
+        <div class="pdr10 fl">
+            <div class="subweb"><span class="trans">51CTO旗下网站</span><i></i>
+                <!--旗下网站-->
+                <div class="subweb-list">
+                    <a href="http://www.51cto.com" target="_blank">51CTO.COM</a>
+                    <a href="http://www.cioage.com" target="_blank">CIOAge.COM</a>
+                    <a href="http://www.watchstor.com" target="_blank">WatchStor.COM</a>
+                    <a href="http://www.hc3i.cn" target="_blank">HC3i.CN</a>
+                    <a href="http://zhijiapro.com/ " target="_blank">zhijiapro.com</a>
+                </div>
+                <!--旗下网站-->
+            </div>
+        </div>
+        <div class="pdr10 fl">|</div>
+        <div class="pdr10 fl"><a href="http://www.51cto.com/about/map.htm" target="_blank">地图</a></div>
+        <div class="pdr10 fl">|</div>
+        <div class="pdr10 fl">
+            <div class="subweb"><span class="trans">移动端</span><i></i>
+                <!--旗下网站-->
+                <div class="subweb-list sub_widthAuto">
+                    <div class="navcodebox clearfix" style="width: 546px;">
+                        <span>
+                             <img src="https://s3.51cto.com/wyfs02/M02/97/8A/wKiom1kvkpKBgQFIAACDBen2-dg668.jpg" width="105" height="107" />
+                             <p>51CTO技术栈</p>
+                        </span>
+                        <span>
+                              <img src="https://s3.51cto.com/oss/201805/03/880922e9b808f86f94ff60f1eb3a1c45.jpg" width="105" height="107" />
+                              <p>AI 推手</p>
+                        </span>
+                        <span>
+                              <img src="http://s3.51cto.com/wyfs02/M00/8E/33/wKioL1i40HrQZy_TAAAcDOkrRAE327.jpg" width="107" height="107" />
+                              <p>51CTO学院客户端</p>
+                        </span>
+                        <span>
+                              <img src="https://s3.51cto.com/oss/201712/27/48594addc4b5eebf52a15bd51262ab23.jpg" width="107" height="107" />
+                              <p>CIO进化论</p>
+                        </span>
+                    </div>
+                </div>
+                <!--旗下网站-->
+            </div>
+        </div>
+        <div class="top-r">
+            <div id="login_status" style="text-align:right;" class="login"> </div>
+        </div>
+    </div>
+</div>
+
+<!--wot瀑布流广告-->
+<div style="margin: 5px auto 0px; width: 1002px; display: none;" id="js_ads_banner_top">
+    <a href="http://edu.51cto.com/activity/11.html?qd=pubuliu" target="_blank"><img  height="90" width="1002"  src="https://s1.51cto.com/oss/201806/30/0587f46a439bea2c62fb631b71d0afac.jpg"></a>
+</div>
+<div style="margin: 5px auto 0px; width: 1002px; display: none; overflow: hidden; height: 500px; padding-top: 0px; padding-bottom: 0px; position: relative;" id="js_ads_banner_top_slide">
+    <a href="http://edu.51cto.com/activity/11.html?qd=pubuliu" target="_blank"><img  height="500" width="1002"  src="https://s2.51cto.com/oss/201806/30/18a28f6766c9cad06878018fa26ffd70.jpg"></a>
+    <!--<span style="position: absolute;right:5px;top:5px; cursor: pointer;" id="pbl_close"><img src="https://s1.51cto.com/oss/201804/25/5abf3538b4ea222823742d260b463655.png"></span>-->
+</div>
+<script>
+    var timestamp = Math.round(new Date().getTime()/1000);
+    if (timestamp < 1530460800){
+        document.write("<script type='text/javascript' src='js/lrtk2.js'> <\/script>");
+    }
+//    document.getElementById('pbl_close').onclick = function () {
+//        document.getElementById('js_ads_banner_top_slide').style.display = 'none';
+//    }
+</script>
+
+<div class="w1001 cent areaAd " id="ad_14"></div>
+<!-- top end -->
+<div class="top-nav">
+	<div class="w1001 cent">
+    	<div class="fl mt20"><a href="http://www.51cto.com"><img src="https://static2.51cto.com/51cto/cms/homepage/2015/images/logo.gif"></a></div>
+        <div class="nav">
+            <ul>
+                <li class="sub" style="position:relative">
+                    <a href="#">社区</a>
+                    <span style="position: absolute;left:10px;top:-20px;"><img src="https://s5.51cto.com/oss/201805/22/48927c731848766c5b87a9cb89474503.png"></span>
+                    <i></i>
+                    <div class="ico"></div>
+                    <div>
+                        <!--<a href="http://home.51cto.com/" target="_blank">家园</a>-->
+                        <a href="http://blog.51cto.com/" target="_blank">博客</a><a href="http://blog.51cto.com/cloumn/index?sydaohang" target="_blank">专栏</a>
+                        <a href="http://bbs.51cto.com/" target="_blank">论坛</a><a href="http://down.51cto.com/" target="_blank">下载</a>
+                        <!--<a href="http://doctor.51cto.com/" target="_blank">门诊</a>-->
+                    </div>
+                </li>
+                <li class="sub" style="position: relative;"><a href="http://edu.51cto.com/?wwwdh0" target="_blank">学院</a><i></i>
+                    <span style="position: absolute;left:10px;top:-20px;">
+                        <a href="http://edu.51cto.com/activity/11.html?qd=xiaotu" target="_blank">
+                            <!--<img src="https://s5.51cto.com/oss/201806/08/4f067a4d7658b35dae5660c967dc1f26.png">-->
+                        </a>
+                    </span>
+                    <div class="ico"></div>
+                    <div class="topnavA_zxf">
+                        <a href="http://edu.51cto.com/course/courseList/id-all.html?wwwdh2" target="_blank">视频自学课</a>
+                        <a href="http://edu.51cto.com/px/?kaoshirenzhengban" target="_blank" style="float:right;text-align:right">考试认证</a>
+                        <a href="http://edu.51cto.com/px/?gaoxinjiuyeban" target="_blank">高薪就业班</a>
+                        <a href="http://b.edu.51cto.com/site/home?www" target="_blank" style="float:right;text-align:right">企业内训</a>
+                    </div>
+                </li>
+                <li style="position:relative"><a href="http://wot.51cto.com?51cto" target="_blank">WOT峰会</a>
+                    <!--<span style="position: absolute;left:10px;top:-20px;"><img src="https://s4.51cto.com/oss/201804/28/b65a047de3007708200ff4ce26ba0ed8.png"></span>-->
+                </li>
+                <li class="sub" style="position:relative"><a href="http://x.51cto.com/act/cto/camp" target="_blank">CTO品牌</a>
+                    <span style="position: absolute;left:10px;top:-20px;"><a href="https://s4.51cto.com/oss/201806/07/ffebca58c1659ccfffb848de6384b4fc.pdf" target="_blank"><img src="https://s4.51cto.com/oss/201806/07/5d1908359ffb4ebb1e46cf40eee07de9.png"></a></span>
+                    <div class="ico"></div>
+                    <div class="topnavA_zxf">
+                        <a href="http://x.51cto.com?www" target="_blank">CTO训练营</a>
+                        <a href="http://x.51cto.com/act/cto/camp/page/course_list/cid/98" target="_blank">CTO金融班</a>
+                        <a href="http://club.51cto.com/?www" target="_blank">CTO俱乐部</a>
+                        <a href="http://zhuanlan.51cto.com/columnlist/baixiong/" target="_blank">白熊视频</a>
+                    </div>
+                </li>
+                <li><a href="http://zhijiapro.com/" target="_blank">知加·区块链</a></li>
+            </ul>
+
+        </div>
+        <div class="nav-rsear">
+	        <form method="get" action="http://www.51cto.com/php/search.php" name="searchform" target="_blank">
+		        <input name="q" id="q" type="text" placeholder="输入您要搜索的内容" class="sear-1">
+		        <input name="" type="submit" value="" class="sear-2">
+			</form>
+		</div>
+    </div>
+</div>
+<!-- nav end -->
+<div style="clear:both;"></div>
+<div class="w1001 cent">
+	<!-- 备用广告位 -->
+	<div class="areaAd mt5" id="ad_1">
+	</div>
+
+    <!-- intel -->
+    <div id="intel09">
+
+    </div>
+    <!-- end -->
+    <!-- 主广告位 -->
+  	<div class="areaAd mt5" id="ad_13">
+  	</div>
+    <div class="zxf_menubot mt10 clearfix">
+    	<dl class="clearfix fl">
+            <dt class="zxf_menu_ico">
+                <img src="http://s1.51cto.com/wyfs02/M01/8D/AA/wKiom1ilTDGDKs89AAAFPbvfFgA607.png" />
+                <span>频道</span>
+            </dt>
+            <dd>
+                <ul class="zxf_menulist clearfix">
+                    <li>
+                        <a target="_blank" href="http://news.51cto.com/" target="_blank">资讯</a>
+                        <a target="_blank" href="http://biz.51cto.com/" target="_blank">办公</a>
+                        <a target="_blank" href="http://stor.51cto.com/" target="_blank">存储</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://cloud.51cto.com/" target="_blank">云计算</a>
+                        <a target="_blank" href="http://bigdata.51cto.com/" target="_blank">大数据</a>
+                        <a target="_blank" href="http://virtual.51cto.com/" target="_blank">虚拟化</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://mobile.51cto.com/" target="_blank">移动</a>
+                        <a target="_blank" href="http://network.51cto.com/" target="_blank">网络</a>
+                        <a target="_blank" href="http://developer.51cto.com/" target="_blank">开发</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://www.cioage.com/" target="_blank">CIOAge</a>
+                        <a target="_blank" href="http://server.51cto.com/" target="_blank">服务器</a>
+                        <a target="_blank" href="http://database.51cto.com/" target="_blank">数据库</a>
+                    </li>
+                    <li class="nmr">
+                        <a target="_blank" href="http://netsecurity.51cto.com/" target="_blank">安全</a>
+                        <a target="_blank" href="http://os.51cto.com/" target="_blank">系统</a>
+                        <a target="_blank" href="http://book.51cto.com/" target="_blank">读书</a>
+                    </li>
+                </ul>
+            </dd>
+        </dl>
+        <dl class="clearfix fl">
+            <dt class="zxf_menu_ico">
+                <img src="http://s4.51cto.com/wyfs02/M02/8D/A7/wKioL1ilTJuiE2kcAAAGyK-ko0s957.png" />
+                <span>热点</span>
+            </dt>
+            <dd>
+                <ul class="zxf_menulist clearfix">
+                    <li>
+                        <a target="_blank" href="http://blockchain.51cto.com/" target="_blank">区块链</a>
+                        <a target="_blank" href="http://iot.51cto.com/" target="_blank">物联网</a>
+                        <a target="_blank" href="http://os.51cto.com/col/610/" target="_blank">开源</a>
+                    </li>
+                    <li class="nmr">
+                        <a target="_blank" href="http://sme.51cto.com/" target="_blank">中小企业</a>
+                        <a target="_blank" href="http://ai.51cto.com/" target="_blank">人工智能</a>
+                        <a target="_blank" href="http://so.51cto.com/index.php?project=cms&keywords=Hadoop" target="_blank">Hadoop</a>
+                    </li>
+                </ul>
+            </dd>
+        </dl>
+        <dl class="clearfix fl">
+            <dt class="zxf_menu_ico">
+                <img src="http://s5.51cto.com/wyfs02/M02/8D/A7/wKioL1ilTMPTIIiLAAAGkAg8DJs942.png" />
+                <span>栏目</span>
+            </dt>
+            <dd>
+                <ul class="zxf_menulist clearfix">
+                    <li>
+
+                        <a  target="_blank" href="http://zhuanlan.51cto.com/" target="_blank">专栏</a>
+
+<a  target="_blank" href="http://www.51cto.com/tag/huiyan" target="_blank">慧眼</a>                       
+
+                        <a  target="_blank" href="http://www.cioage.com/cio.html#zhi" target="_blank">智享汇</a>
+                    </li>
+                    <li>
+                        <a  target="_blank" href="http://www.51cto.com/tag/specials" target="_blank">专题</a>
+                        <a target="_blank" href="http://www.51cto.com/tag/interviews" target="_blank">匠心</a>
+<a  target="_blank" href="http://www.51cto.com/tag/practice" target="_blank">足迹</a>
+                    </li>
+                    <li class="nmr">
+                        <a  target="_blank" href="http://www.51cto.com/tag/original" target="_blank">原创</a>
+                        <a  target="_blank" href="http://www.51cto.com/tag/translation" target="_blank">译文</a>
+                        <a target="_blank" href="http://www.51cto.com/tag/video" target="_blank">视频</a>
+                    </li>
+                </ul>
+            </dd>
+        </dl>
+        <dl class="clearfix nmr fl">
+            <dt class="zxf_menu_ico">
+                <a target="_blank" href="http://edu.51cto.com/?wwwdh">
+                    <img src="http://s1.51cto.com/wyfs02/M01/8D/AA/wKiom1ilTPHSWMdzAAAEtbI2lKE283.png" />
+                    <span>学院</span>
+                </a>
+            </dt>
+            <dd>
+                <ul class="zxf_menulist clearfix">
+                    <li>
+ <a target="_blank" href="http://edu.51cto.com/course/courseList/id-all.html?wwwdh" target="_blank">视频课</a>
+<a target="_blank" href="http://edu.51cto.com/px/train/248?wwwdh" target="_blank">Python</a><a target="_blank" href="http://edu.51cto.com/px/train/303?wwwdh" target="_blank">MySQL</a>
+ </li>
+                    <li class="nmr">
+<a target="_blank" href="http://edu.51cto.com/px/train/243?wwwdh " target="_blank">大数据</a>
+<a target="_blank" href="http://edu.51cto.com/px/train/182?wwwdh " target="_blank">Java</a>
+                        <a target="_blank" href="http://edu.51cto.com/px/train/115?wwwdh" target="_blank">Linux</a>          
+                    </li>
+                </ul>
+            </dd>
+        </dl>
+    </div>
+
+    <!-- 悬浮广告 -->
+    <!--end-->
+    <div class="areaAd mt5 fl" id="ad_3"></div>
+    <div class="home-left fl mt10">
+    	
+        <div id="slideBox" class="slideBox">
+
+		<div class="hd">
+		<ul>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		</ul>
+		</div>
+
+		<div class="bd">
+		<ul class="piclist">
+		
+		<li>
+		<a href="http://cloud.51cto.com/art/201807/578697.htm" target="_blank">
+		<img src="https://s1.51cto.com/oss/201807/25/016f08ca1cef3d177e19c3d95ad68fb0.jpg" /></a>
+		<div class="trans">
+		<h3><a href="http://cloud.51cto.com/art/201807/578697.htm" target="_blank">多种云服务模式下Kubernetes的最佳实践</a></h3>
+		<p>本文讨论多种云服务的模式下，成功部署和运行Kubernetes群集的关键操作难点与最佳实践。也就是IT运营团队要为多个内部其他团队构建一套企业级的Kubernetes整体策略。</p>
+		</div>
+		</li>
+		
+		<li>
+		<a href="http://developer.51cto.com/art/201807/578706.htm" target="_blank">
+		<img src="https://s5.51cto.com/oss/201807/24/e0a1176e0939aebf5f222683be1c5456.jpg" /></a>
+		<div class="trans">
+		<h3><a href="http://developer.51cto.com/art/201807/578706.htm" target="_blank">踩坑实践：如何消除微服务架构中的系统耦合</a></h3>
+		<p>微服务架构实施后，不少通用数据访问会拆分成服务，通用业务也会拆分成服务，站点与服务之间的依赖关系会变得复杂，服务与服务之间的调用关系也会变得复杂。</p>
+		</div>
+		</li>
+		
+		<li>
+		<a href="http://developer.51cto.com/art/201807/578540.htm" target="_blank">
+		<img src="https://s1.51cto.com/oss/201807/23/1f9a8c95cf586894a2fca2ca8006632c.jpg" /></a>
+		<div class="trans">
+		<h3><a href="http://developer.51cto.com/art/201807/578540.htm" target="_blank">用不到20行的Python代码构建一个对象检测模型</a></h3>
+		<p>在本文中我们了解了对象检测是什么以及构建对象检测模型背后的机理。我们还了解了如何使用ImageAI库来构建检测行人的这个对象检测模型。</p>
+		</div>
+		</li>
+		
+		<li>
+		<a href="http://news.51cto.com/art/201807/579053.htm" target="_blank">
+		<img src="https://s2.51cto.com/oss/201807/20/d78688f8ad3b30b95d67c8634538fda2.jpg" /></a>
+		<div class="trans">
+		<h3><a href="http://news.51cto.com/art/201807/579053.htm" target="_blank">作为程序员，你的成就感来自哪里？</a></h3>
+		<p>在虚拟的计算机世界，看到现实中一批批汽车跟随指令自动配置完成，在公路上自由奔驰，真正的服务于人，工业，让EOL开发者遥望见自己的初心。</p>
+		</div>
+		</li>
+		
+		<li>
+		<a href="http://news.51cto.com/art/201807/578188.htm" target="_blank">
+		<img src="https://s2.51cto.com/oss/201807/20/739772204d00ba516d1a052755922098.jpg" /></a>
+		<div class="trans">
+		<h3><a href="http://news.51cto.com/art/201807/578188.htm" target="_blank">想要成为一个合格的架构师？看这篇文章就足够了</a></h3>
+		<p>在互联网圈，架构师这个名号的火热程度堪比产品经理，它在产品经理没火之前就已经风生水起。仅以本文向带给我许多欢乐和感悟的周星驰致敬。</p>
+		</div>
+		</li>
+		
+		</ul>
+		</div>
+
+
+		<a class="slideArrow prev" href="javascript:void(0)"></a>
+		<a class="slideArrow next" href="javascript:void(0)"></a>
+		<span class="pageState"></span>
+		</div>
+        <!-- intel广告位 -->
+       <div class="mt10" id="intel" style="position:relative;display:inline-block;" onclick="_czc.push('_trackEvent','广告','点击', '轮播图下方');">
+           <script type='text/javascript'><!--//<![CDATA[
+           var m3_u = (location.protocol=='https:'?'https://gg.51cto.com/www/delivery/ajs.php':'http://gg1.51cto.com/www/delivery/ajs.php');
+           var m3_r = Math.floor(Math.random()*99999999999);
+           if (!document.MAX_used) document.MAX_used = ',';
+           document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+           document.write ("?zoneid=966");
+           document.write ('&cb=' + m3_r);
+           if (document.MAX_used != ',') document.write ("&exclude=" + document.MAX_used);
+           document.write (document.charset ? '&charset='+document.charset : (document.characterSet ? '&charset='+document.characterSet : ''));
+           document.write ("&loc=" + escape(window.location));
+           if (document.referrer) document.write ("&referer=" + escape(document.referrer));
+           if (document.context) document.write ("&context=" + escape(document.context));
+           if (document.mmm_fo) document.write ("&mmm_fo=1");
+           document.write ("'><\/scr"+"ipt>");
+           //]]>--></script><noscript>< a href=' ' target='_blank'>< img src='//gg.51cto.com/www/delivery/avw.php?zoneid=966&cb=INSERT_RANDOM_NUMBER_HERE&n=a7f61e9a' border='0' alt='' /></ a></noscript>
+       </div>
+
+        <div class="jxzt w100 fl mt20" style="position: relative;">
+        	<span class="f18 fl"><b class="ft1 nor">精选专题</b><font color="#a4a4a4"> |</font></span>
+            <!-- 文字链广告位 -->
+            <div class="list">
+				<span id="ad_4"></span>|<span id="ad_5"></span>|<span id="ad_6"></span>
+			</div>
+            <div style="right: 0px; width: 24px; height: 14px; z-index: 12; position: absolute; background: transparent url(http://s5.51cto.com/wyfs02/M00/86/BB/wKiom1fI4nWStYqXAAAEoZQn6vs942.png) repeat scroll 0% 0%; bottom: 2px;"></div>
+        </div>
+
+        <div class="jxzt-li">
+            <div class="lidiv"><div class="topli mt15">
+                    <div class="pic">
+                        <a href="http://news.51cto.com/art/201807/579039.htm" target="_blank" ><img src="http://s2.51cto.com/wyfs02/M02/8F/A6/wKiom1jnYfzB8VMOAAAO6R6RlHs001.png" title="Java继承及JSON异步刷新"></a>
+                    </div>
+                    <div class="rinfo">
+                        <a href="http://news.51cto.com/art/201807/579039.htm" target="_blank" >Java继承及JSON异步刷新</a>
+                        <p>挨踢部落邀请业界技术大咖对开发需求一对一突破，解答开发难题。</p>
+                    </div>
+                </div><div class="moreli"><a href="http://ai.51cto.com/art/201806/576779.htm" target="_blank" >浅析前端技术应用</a></div></div><div class="lidiv li2"><div class="topli mt15">
+                    <div class="pic">
+                        <a href="http://down.51cto.com/data/2447132" target="_blank" ><img src="https://s4.51cto.com/oss/201806/01/16fa57dddc8d460f4170fa1ad4edaf5a.jpg" title="AI+区块链发展趋势及应用"></a>
+                    </div>
+                    <div class="rinfo">
+                        <a href="http://down.51cto.com/data/2447132" target="_blank" >AI+区块链发展趋势及应用</a>
+                        <p>本次共有15315位关注AI与区块链融合的用户参与调研。</p>
+                    </div>
+                </div><div class="moreli"><a href="http://ai.51cto.com/art/201806/576767.htm" target="_blank" >新零售背后的核心技术</a></div></div>
+        </div>
+
+        <div class="adlist w100 fl mt15">
+        	<div>
+            	<span id="ad_7"></span>
+                <span id="ad_8"></span>
+                <span id="ad_9"></span>
+        	</div>
+        </div>
+        <div class="nav-scroll">
+        <div class="home-left-nav">
+        	<a href="javascript:;" class="cur" id="0">综合</a>
+            <a href="javascript:;" id="15">云计算</a>
+            <a href="javascript:;" id="583">移动</a>
+            <a href="javascript:;" id="460">开发</a>
+            <a href="javascript:;" id="519">系统</a>
+            <a href="javascript:;" id="481">网络</a>
+            <a href="javascript:;" id="512">安全</a>
+            <!--<a href="javascript:;" id="9999">博客</a>-->
+            <a href="javascript:;" id="1718">CIOAge</a>
+            <a href="javascript:;" id="1708">大数据</a>
+            <span class="morenav">
+            	<div class="morenav-list">
+                    <a href="javascript:;" id="1699">专栏</a>
+                    <!--<a href="javascript:;" id="1674">MDSA</a>-->
+                    <a href="javascript:;" id="9998">Tech Neo</a>
+                    <a href="javascript:;" id="1735">人工智能</a>
+                    <a href="javascript:;" id="475">数据库</a>
+                    <a href="javascript:;" id="463">服务器</a>
+                    <a href="javascript:;" id="36">虚拟化</a>
+                	<a href="javascript:;" id="610">开源</a>
+                </div>
+            </span>
+        </div>
+        </div>
+        <div class="home-left-list" style="display:block">
+        	<ul>
+        	
+            	<li>
+                	<div class="pic"><a href=http://zhuanlan.51cto.com/art/201807/579677.htm target='_blank'><img src='https://s5.51cto.com/oss/201807/25/ae6d07ac3a6fabcf15fe82ee611530c8.jpg-wh_173x112-s_1615182080.jpg'></a><p><a href="http://zhuanlan.51cto.com" target="_blank">专栏</a></p></div>
+                    <div class="rinfo">
+                    	<a href="http://zhuanlan.51cto.com/art/201807/579677.htm" target="_blank">达观数据:NLP概述和文本自动分类算法详解</a>
+                        <p>自然语言处理一直是人工智能领域的重要话题，更是2018年的热度话题，为了在海量文本中及时准确地获得有效信</p>
+                        <div class="time"><i>2018-07-25 12:00:21</i><span><a href='http://www.51cto.com/php/search.php?q=算法' target='_blank' class='tag'>算法</a><a href='http://www.51cto.com/php/search.php?q=自动分类' target='_blank' class='tag'>自动分类</a><a href='http://www.51cto.com/php/search.php?q=NLP' target='_blank' class='tag'>NLP</a></span> </div>
+                    </div>
+                    <div class="fx">
+                    <div class="fxlist bdsharebuttonbox" id="share">
+                    	<p>
+	                    	<a class="bds_tsina" data-cmd="tsina"></a>
+	                    	<a class="bds_qzone" data-cmd="qzone"></a>
+	                    	<a class="bds_sqq" data-cmd="sqq"></a>
+	                    	<a class="bds_weixin" data-cmd="weixin"></a>
+                    	</p>
+                    </div>
+                    </div>
+                </li>
+           	
+            	<li>
+                	<div class="pic"><a href=http://news.51cto.com/art/201807/579671.htm target='_blank'><img src='https://s3.51cto.com/oss/201807/25/ea5a7423e5a98e70de665c487cedd2a4.png-wh_173x112-s_3325533241.png'></a><p><a href="http://news.51cto.com" target="_blank">新闻</a></p></div>
+                    <div class="rinfo">
+                    	<a href="http://news.51cto.com/art/201807/579671.htm" target="_blank">谷歌发布多款AI工具：帮大众更好地利用人工智能</a>
+                        <p> 谷歌在本周的Cloud Next大会上宣布了一系列与人工智能相关的功能和服务，包括各类机器学习工具、客服工具</p>
+                        <div class="time"><i>2018-07-25 11:19:02</i><span><a href='http://www.51cto.com/php/search.php?q=谷歌' target='_blank' class='tag'>谷歌</a><a href='http://www.51cto.com/php/search.php?q=工具' target='_blank' class='tag'>工具</a><a href='http://www.51cto.com/php/search.php?q=AI' target='_blank' class='tag'>AI</a></span> </div>
+                    </div>
+                    <div class="fx">
+                    <div class="fxlist bdsharebuttonbox" id="share">
+                    	<p>
+	                    	<a class="bds_tsina" data-cmd="tsina"></a>
+	                    	<a class="bds_qzone" data-cmd="qzone"></a>
+	                    	<a class="bds_sqq" data-cmd="sqq"></a>
+	                    	<a class="bds_weixin" data-cmd="weixin"></a>
+                    	</p>
+                    </div>
+                    </div>
+                </li>
+           	
+            	<li>
+                	<div class="pic"><a href=http://developer.51cto.com/art/201807/579663.htm target='_blank'><img src='https://s1.51cto.com/oss/201807/25/52b42b1817c50f4ded5a1500f8687dfd.jpeg-wh_173x112-s_390140536.jpeg'></a><p><a href="http://developer.51cto.com" target="_blank">开发</a></p></div>
+                    <div class="rinfo">
+                    	<a href="http://developer.51cto.com/art/201807/579663.htm" target="_blank">今天给大家分享一篇Python的内存管理，有兴趣的可以进来看一下</a>
+                        <p>语言的内存管理是语言设计的一个重要方面。它是决定语言性能的重要因素。无论是C语言的手工管理，还是Java</p>
+                        <div class="time"><i>2018-07-25 10:22:02</i><span><a href='http://www.51cto.com/php/search.php?q=内存管理' target='_blank' class='tag'>内存管理</a><a href='http://www.51cto.com/php/search.php?q=Python' target='_blank' class='tag'>Python</a><a href='http://www.51cto.com/php/search.php?q=编程语言' target='_blank' class='tag'>编程语言</a></span> </div>
+                    </div>
+                    <div class="fx">
+                    <div class="fxlist bdsharebuttonbox" id="share">
+                    	<p>
+	                    	<a class="bds_tsina" data-cmd="tsina"></a>
+	                    	<a class="bds_qzone" data-cmd="qzone"></a>
+	                    	<a class="bds_sqq" data-cmd="sqq"></a>
+	                    	<a class="bds_weixin" data-cmd="weixin"></a>
+                    	</p>
+                    </div>
+                    </div>
+                </li>
+           	
+            	<li>
+                	<div class="pic"><a href=http://developer.51cto.com/art/201807/579661.htm target='_blank'><img src='https://s4.51cto.com/oss/201807/25/04f5f784317978dc3ed386621ab8a81e.jpeg-wh_173x112-s_2565966690.jpeg'></a><p><a href="http://developer.51cto.com" target="_blank">开发</a></p></div>
+                    <div class="rinfo">
+                    	<a href="http://developer.51cto.com/art/201807/579661.htm" target="_blank">7月报告！Python坐稳编程榜首，要对Java说拜拜了！</a>
+                        <p>PYPL 发布7月编程语言指数榜啦。Python 在今年5月以 22.8％ 的份额，首次超越 Java 拿下榜首位置后。时隔2</p>
+                        <div class="time"><i>2018-07-25 10:00:26</i><span><a href='http://www.51cto.com/php/search.php?q=Java' target='_blank' class='tag'>Java</a><a href='http://www.51cto.com/php/search.php?q=Python' target='_blank' class='tag'>Python</a><a href='http://www.51cto.com/php/search.php?q=编程语言' target='_blank' class='tag'>编程语言</a></span> </div>
+                    </div>
+                    <div class="fx">
+                    <div class="fxlist bdsharebuttonbox" id="share">
+                    	<p>
+	                    	<a class="bds_tsina" data-cmd="tsina"></a>
+	                    	<a class="bds_qzone" data-cmd="qzone"></a>
+	                    	<a class="bds_sqq" data-cmd="sqq"></a>
+	                    	<a class="bds_weixin" data-cmd="weixin"></a>
+                    	</p>
+                    </div>
+                    </div>
+                </li>
+           	
+            	<li>
+                	<div class="pic"><a href=http://ai.51cto.com/art/201807/579658.htm target='_blank'><img src='https://s2.51cto.com/oss/201807/25/b625f8a8807e08a18a63090a59f36e0b.jpeg-wh_173x112-s_442990348.jpeg'></a><p><a href="http://ai.51cto.com" target="_blank">AI</a></p></div>
+                    <div class="rinfo">
+                    	<a href="http://ai.51cto.com/art/201807/579658.htm" target="_blank">物联网、人工智能、区块链，看看到底哪个才是你的菜？</a>
+                        <p>有人说现在的时代钱难赚了，生意不好做了，但是也有人说现在是最好的时代，只要你找到一个对的风口，然后便</p>
+                        <div class="time"><i>2018-07-25 09:52:42</i><span><a href='http://www.51cto.com/php/search.php?q=区块链' target='_blank' class='tag'>区块链</a><a href='http://www.51cto.com/php/search.php?q=人工智能' target='_blank' class='tag'>人工智能</a><a href='http://www.51cto.com/php/search.php?q=物联网' target='_blank' class='tag'>物联网</a></span> </div>
+                    </div>
+                    <div class="fx">
+                    <div class="fxlist bdsharebuttonbox" id="share">
+                    	<p>
+	                    	<a class="bds_tsina" data-cmd="tsina"></a>
+	                    	<a class="bds_qzone" data-cmd="qzone"></a>
+	                    	<a class="bds_sqq" data-cmd="sqq"></a>
+	                    	<a class="bds_weixin" data-cmd="weixin"></a>
+                    	</p>
+                    </div>
+                    </div>
+                </li>
+           	
+           	<li class="left-ad"><a href="http://zhuanlan.51cto.com/columnlist/jszh/" target="_blank"><img src="https://s4.51cto.com/oss/201804/08/a3843760de37191e065ccd0a22627dc0.jpg"></a><p style="font-size: 18px;padding: 3px 8px;position: relative;top: -90px;">推广</p></li>
+           	
+            	<li>
+                	<div class="pic"><a href=http://blockchain.51cto.com/art/201807/579643.htm target='_blank'><img src='https://s4.51cto.com/oss/201807/24/c19fefeac62d10ae6c697b7c2d7e5b49.png-wh_173x112-s_1004720310.png'></a><p><a href="http://blockchain.51cto.com"  target="_blank">区块链</a></p></div>
+                    <div class="rinfo">
+                    	<a href="http://blockchain.51cto.com/art/201807/579643.htm"  target="_blank">超越课堂：大学区块链实验室的崛起</a>
+                        <p>作为对课堂教学的补充，由大学领导的区块链研究和开发项目正在兴起，教授、区块链开发人员和学生组成的团队</p>
+                        <div class="time"><i>2018-07-25 09:47:51</i><span><a href='http://www.51cto.com/php/search.php?q=比特币' target='_blank' class='tag'>比特币</a><a href='http://www.51cto.com/php/search.php?q=实验室' target='_blank' class='tag'>实验室</a><a href='http://www.51cto.com/php/search.php?q=区块链' target='_blank' class='tag'>区块链</a></span> </div>
+                    </div>
+                    <div class="fx">
+                    <div class="fxlist bdsharebuttonbox" id="share">
+                    	<p>
+	                    	<a class="bds_tsina" data-cmd="tsina"></a>
+	                    	<a class="bds_qzone" data-cmd="qzone"></a>
+	                    	<a class="bds_sqq" data-cmd="sqq"></a>
+	                    	<a class="bds_weixin" data-cmd="weixin"></a>
+                    	</p>
+                    </div>
+                    </div>
+                </li>
+           	
+            	<li>
+                	<div class="pic"><a href=http://server.51cto.com/Datacenter-579656.htm target='_blank'><img src='https://s5.51cto.com/oss/201807/25/23fb5491b28d1d90e4f7e54d69a68542.jpg-wh_173x112-s_1008711388.jpg'></a><p><a href="http://server.51cto.com"  target="_blank">服务器</a></p></div>
+                    <div class="rinfo">
+                    	<a href="http://server.51cto.com/Datacenter-579656.htm"  target="_blank">浅谈数据中心优化问题中资源利用率的预测</a>
+                        <p>随着数据量的不断膨胀，数据中心市场规模呈指数级增长。其中，新加坡作为东南亚的数据中心枢纽，占该地区数</p>
+                        <div class="time"><i>2018-07-25 09:37:53</i><span><a href='http://www.51cto.com/php/search.php?q=预测' target='_blank' class='tag'>预测</a><a href='http://www.51cto.com/php/search.php?q=利用率' target='_blank' class='tag'>利用率</a><a href='http://www.51cto.com/php/search.php?q=数据中心' target='_blank' class='tag'>数据中心</a></span> </div>
+                    </div>
+                    <div class="fx">
+                    <div class="fxlist bdsharebuttonbox" id="share">
+                    	<p>
+	                    	<a class="bds_tsina" data-cmd="tsina"></a>
+	                    	<a class="bds_qzone" data-cmd="qzone"></a>
+	                    	<a class="bds_sqq" data-cmd="sqq"></a>
+	                    	<a class="bds_weixin" data-cmd="weixin"></a>
+                    	</p>
+                    </div>
+                    </div>
+                </li>
+           	
+            	<li>
+                	<div class="pic"><a href=http://news.51cto.com/art/201807/579654.htm target='_blank'><img src='https://s5.51cto.com/oss/201807/25/91faf91c233e45543e55d58019965af1.jpeg-wh_173x112-s_1793025580.jpeg'></a><p><a href="http://news.51cto.com"  target="_blank">新闻</a></p></div>
+                    <div class="rinfo">
+                    	<a href="http://news.51cto.com/art/201807/579654.htm"  target="_blank">小米再开源！这次是移动端神经网络框架基准测试项目MobileAIBench</a>
+                        <p>继小米在 6 月宣布自研的移动端深度学习框架 Mobile AI Compute Engine 开源以来，小米近日又宣布开源移动</p>
+                        <div class="time"><i>2018-07-25 09:36:34</i><span><a href='http://www.51cto.com/php/search.php?q=项目' target='_blank' class='tag'>项目</a><a href='http://www.51cto.com/php/search.php?q=技术 ' target='_blank' class='tag'>技术 </a><a href='http://www.51cto.com/php/search.php?q=开源' target='_blank' class='tag'>开源</a></span> </div>
+                    </div>
+                    <div class="fx">
+                    <div class="fxlist bdsharebuttonbox" id="share">
+                    	<p>
+	                    	<a class="bds_tsina" data-cmd="tsina"></a>
+	                    	<a class="bds_qzone" data-cmd="qzone"></a>
+	                    	<a class="bds_sqq" data-cmd="sqq"></a>
+	                    	<a class="bds_weixin" data-cmd="weixin"></a>
+                    	</p>
+                    </div>
+                    </div>
+                </li>
+           	
+            	<li>
+                	<div class="pic"><a href=http://server.51cto.com/Datacenter-579653.htm target='_blank'><img src='https://s2.51cto.com/oss/201807/25/b0a30cafa92342f54d67b4ae68b2b22d.jpeg-wh_173x112-s_1891176577.jpeg'></a><p><a href="http://server.51cto.com"  target="_blank">服务器</a></p></div>
+                    <div class="rinfo">
+                    	<a href="http://server.51cto.com/Datacenter-579653.htm"  target="_blank">“零成本”建设数据中心机房容灾方案</a>
+                        <p>数据中心全年不休地运行，一旦发生不可预知的灾难，如果对数据中心机房造成设备损坏将是一笔不小的损失，设</p>
+                        <div class="time"><i>2018-07-25 09:06:18</i><span><a href='http://www.51cto.com/php/search.php?q=容灾' target='_blank' class='tag'>容灾</a><a href='http://www.51cto.com/php/search.php?q=机房' target='_blank' class='tag'>机房</a><a href='http://www.51cto.com/php/search.php?q=数据中心' target='_blank' class='tag'>数据中心</a></span> </div>
+                    </div>
+                    <div class="fx">
+                    <div class="fxlist bdsharebuttonbox" id="share">
+                    	<p>
+	                    	<a class="bds_tsina" data-cmd="tsina"></a>
+	                    	<a class="bds_qzone" data-cmd="qzone"></a>
+	                    	<a class="bds_sqq" data-cmd="sqq"></a>
+	                    	<a class="bds_weixin" data-cmd="weixin"></a>
+                    	</p>
+                    </div>
+                    </div>
+                </li>
+           	
+            	<li>
+                	<div class="pic"><a href=http://stor.51cto.com/art/201807/579651.htm target='_blank'><img src='https://s4.51cto.com/oss/201807/25/d229e97894e5f4afac38c0e0c2d382c4.jpg-wh_173x112-s_1183916035.jpg'></a><p><a href="http://stor.51cto.com"  target="_blank">存储</a></p></div>
+                    <div class="rinfo">
+                    	<a href="http://stor.51cto.com/art/201807/579651.htm"  target="_blank">软件定义诚可贵 存储价值却更高</a>
+                        <p>生命和爱情你选择哪个？软件定义和硬件存储你更看好哪一个？对于那些认为软件定义会削弱或者取代存储的观点</p>
+                        <div class="time"><i>2018-07-25 08:43:43</i><span><a href='http://www.51cto.com/php/search.php?q=软件定义' target='_blank' class='tag'>软件定义</a><a href='http://www.51cto.com/php/search.php?q=价值' target='_blank' class='tag'>价值</a><a href='http://www.51cto.com/php/search.php?q=存储' target='_blank' class='tag'>存储</a></span> </div>
+                    </div>
+                    <div class="fx">
+                    <div class="fxlist bdsharebuttonbox" id="share">
+                    	<p>
+	                    	<a class="bds_tsina" data-cmd="tsina"></a>
+	                    	<a class="bds_qzone" data-cmd="qzone"></a>
+	                    	<a class="bds_sqq" data-cmd="sqq"></a>
+	                    	<a class="bds_weixin" data-cmd="weixin"></a>
+                    	</p>
+                    </div>
+                    </div>
+                </li>
+           	
+           	<!-- <li class="left-ad">
+ <a href="http://wot.51cto.com/2015bigdata/" target="_blank"><img src="http://s4.51cto.com/wyfs02/M02/75/0D/wKioL1YxsWSCgsfpAABZZSritlk682.jpg"></a>
+</li> -->
+           	
+            	<li>
+                	<div class="pic"><a href=http://stor.51cto.com/art/201807/579650.htm target='_blank'><img src='https://s5.51cto.com/oss/201807/25/cb0eb2cd321ffc1f2b3163f7a31750e5.jpg-wh_173x112-s_3048047830.jpg'></a><p><a href="http://stor.51cto.com"  target="_blank">存储</a></p></div>
+                    <div class="rinfo">
+                    	<a href="http://stor.51cto.com/art/201807/579650.htm"  target="_blank">企业级云存储助企业应对数据爆炸时代</a>
+                        <p>大数据时代降临的今天，人们每天接触的数据吞吐量呈现出指数级的增长趋势，我国社会正在步入数据爆炸的时代</p>
+                        <div class="time"><i>2018-07-25 08:31:16</i><span><a href='http://www.51cto.com/php/search.php?q=企业' target='_blank' class='tag'>企业</a><a href='http://www.51cto.com/php/search.php?q=数据' target='_blank' class='tag'>数据</a><a href='http://www.51cto.com/php/search.php?q=云存储' target='_blank' class='tag'>云存储</a></span> </div>
+                    </div>
+                    <div class="fx">
+                    <div class="fxlist bdsharebuttonbox" id="share">
+                    	<p>
+	                    	<a class="bds_tsina" data-cmd="tsina"></a>
+	                    	<a class="bds_qzone" data-cmd="qzone"></a>
+	                    	<a class="bds_sqq" data-cmd="sqq"></a>
+	                    	<a class="bds_weixin" data-cmd="weixin"></a>
+                    	</p>
+                    </div>
+                    </div>
+                </li>
+           	
+            	<li>
+                	<div class="pic"><a href=http://cloud.51cto.com/art/201807/579649.htm target='_blank'><img src='https://s4.51cto.com/oss/201807/25/5bfd8e807c4a231633f7d488ae3fa245.jpg-wh_173x112-s_1369086813.jpg'></a><p><a href="http://cloud.51cto.com"  target="_blank">云计算</a></p></div>
+                    <div class="rinfo">
+                    	<a href="http://cloud.51cto.com/art/201807/579649.htm"  target="_blank">云计算数据管理的五大支柱</a>
+                        <p>作为企业业务的生命线，云中的数据必须容易获得，以提高企业的灵活性和创新能力，而易于访问也必须与安全保</p>
+                        <div class="time"><i>2018-07-25 06:41:19</i><span><a href='http://www.51cto.com/php/search.php?q=云' target='_blank' class='tag'>云</a><a href='http://www.51cto.com/php/search.php?q=数据管理' target='_blank' class='tag'>数据管理</a><a href='http://www.51cto.com/php/search.php?q=云计算' target='_blank' class='tag'>云计算</a></span> </div>
+                    </div>
+                    <div class="fx">
+                    <div class="fxlist bdsharebuttonbox" id="share">
+                    	<p>
+	                    	<a class="bds_tsina" data-cmd="tsina"></a>
+	                    	<a class="bds_qzone" data-cmd="qzone"></a>
+	                    	<a class="bds_sqq" data-cmd="sqq"></a>
+	                    	<a class="bds_weixin" data-cmd="weixin"></a>
+                    	</p>
+                    </div>
+                    </div>
+                </li>
+           	
+            	<li>
+                	<div class="pic"><a href=http://netsecurity.51cto.com/art/201807/579648.htm target='_blank'><img src='https://s4.51cto.com/oss/201807/25/5f3a400d95380366047cb0b3f4642b6d.jpg-wh_173x112-s_1444737472.jpg'></a><p><a href="http://netsecurity.51cto.com"  target="_blank">安全</a></p></div>
+                    <div class="rinfo">
+                    	<a href="http://netsecurity.51cto.com/art/201807/579648.htm"  target="_blank">智能家居有啥网络安全问题？</a>
+                        <p>一般认为家庭网络没有任何值得黑客攻击的目标，但2016年发生的Mirai僵尸病毒攻击事件，大大地改变了所有人</p>
+                        <div class="time"><i>2018-07-25 06:34:17</i><span><a href='http://www.51cto.com/php/search.php?q=攻击' target='_blank' class='tag'>攻击</a><a href='http://www.51cto.com/php/search.php?q=网络安全' target='_blank' class='tag'>网络安全</a><a href='http://www.51cto.com/php/search.php?q=智能家居' target='_blank' class='tag'>智能家居</a></span> </div>
+                    </div>
+                    <div class="fx">
+                    <div class="fxlist bdsharebuttonbox" id="share">
+                    	<p>
+	                    	<a class="bds_tsina" data-cmd="tsina"></a>
+	                    	<a class="bds_qzone" data-cmd="qzone"></a>
+	                    	<a class="bds_sqq" data-cmd="sqq"></a>
+	                    	<a class="bds_weixin" data-cmd="weixin"></a>
+                    	</p>
+                    </div>
+                    </div>
+                </li>
+           	
+            	<li>
+                	<div class="pic"><a href=http://netsecurity.51cto.com/art/201807/579647.htm target='_blank'><img src='https://s4.51cto.com/oss/201807/25/0987dae0c3efeaf5f63b7a229d726d04.jpg-wh_173x112-s_772857824.jpg'></a><p><a href="http://netsecurity.51cto.com"  target="_blank">安全</a></p></div>
+                    <div class="rinfo">
+                    	<a href="http://netsecurity.51cto.com/art/201807/579647.htm"  target="_blank">看网络犯罪分子如何通过手机游戏洗钱</a>
+                        <p>在整个洗钱环节中，网络犯罪分子使用了伪造的苹果账号和游戏账号来进行盗刷信用卡交易，并在各大在线论坛和</p>
+                        <div class="time"><i>2018-07-25 06:20:27</i><span><a href='http://www.51cto.com/php/search.php?q=游戏' target='_blank' class='tag'>游戏</a><a href='http://www.51cto.com/php/search.php?q=洗钱' target='_blank' class='tag'>洗钱</a><a href='http://www.51cto.com/php/search.php?q=网络安全' target='_blank' class='tag'>网络安全</a></span> </div>
+                    </div>
+                    <div class="fx">
+                    <div class="fxlist bdsharebuttonbox" id="share">
+                    	<p>
+	                    	<a class="bds_tsina" data-cmd="tsina"></a>
+	                    	<a class="bds_qzone" data-cmd="qzone"></a>
+	                    	<a class="bds_sqq" data-cmd="sqq"></a>
+	                    	<a class="bds_weixin" data-cmd="weixin"></a>
+                    	</p>
+                    </div>
+                    </div>
+                </li>
+           	
+            	<li>
+                	<div class="pic"><a href=http://network.51cto.com/art/201807/579645.htm target='_blank'><img src='https://s1.51cto.com/oss/201807/25/f3eb28008710f18b3e84522edc310dfa.jpg-wh_173x112-s_640029000.jpg'></a><p><a href="http://network.51cto.com"  target="_blank">网络</a></p></div>
+                    <div class="rinfo">
+                    	<a href="http://network.51cto.com/art/201807/579645.htm"  target="_blank">数据中心从10G/40G升级到25G/100G 时的几个注意点</a>
+                        <p>服务器接口从10G升级为25G接口带来很多好处，虽然这些好处很诱人，但是仍然有几个方面需要注意。</p>
+                        <div class="time"><i>2018-07-25 06:00:35</i><span><a href='http://www.51cto.com/php/search.php?q=网络' target='_blank' class='tag'>网络</a><a href='http://www.51cto.com/php/search.php?q=以太网' target='_blank' class='tag'>以太网</a><a href='http://www.51cto.com/php/search.php?q=数据中心' target='_blank' class='tag'>数据中心</a></span> </div>
+                    </div>
+                    <div class="fx">
+                    <div class="fxlist bdsharebuttonbox" id="share">
+                    	<p>
+	                    	<a class="bds_tsina" data-cmd="tsina"></a>
+	                    	<a class="bds_qzone" data-cmd="qzone"></a>
+	                    	<a class="bds_sqq" data-cmd="sqq"></a>
+	                    	<a class="bds_weixin" data-cmd="weixin"></a>
+                    	</p>
+                    </div>
+                    </div>
+                </li>
+           	
+            	<li>
+                	<div class="pic"><a href=http://cloud.51cto.com/art/201807/579644.htm target='_blank'><img src='https://s2.51cto.com/oss/201807/25/16654f42b78f4d4606d7105f98c336e7.jpg-wh_173x112-s_2241279524.jpg'></a><p><a href="http://cloud.51cto.com"  target="_blank">云计算</a></p></div>
+                    <div class="rinfo">
+                    	<a href="http://cloud.51cto.com/art/201807/579644.htm"  target="_blank">2018年国内企业级SaaS市场，内行人不容错过的六大看点</a>
+                        <p>19日国际数据公司IDC发布《中国公有云市场2017年下半年跟踪报告》，各大媒体多有报道。透过这份报告，可以</p>
+                        <div class="time"><i>2018-07-25 05:54:06</i><span><a href='http://www.51cto.com/php/search.php?q=云服务' target='_blank' class='tag'>云服务</a><a href='http://www.51cto.com/php/search.php?q=云计算' target='_blank' class='tag'>云计算</a><a href='http://www.51cto.com/php/search.php?q=SaaS' target='_blank' class='tag'>SaaS</a></span> </div>
+                    </div>
+                    <div class="fx">
+                    <div class="fxlist bdsharebuttonbox" id="share">
+                    	<p>
+	                    	<a class="bds_tsina" data-cmd="tsina"></a>
+	                    	<a class="bds_qzone" data-cmd="qzone"></a>
+	                    	<a class="bds_sqq" data-cmd="sqq"></a>
+	                    	<a class="bds_weixin" data-cmd="weixin"></a>
+                    	</p>
+                    </div>
+                    </div>
+                </li>
+           	
+            	<li>
+                	<div class="pic"><a href=http://ai.51cto.com/art/201807/579633.htm target='_blank'><img src='https://s2.51cto.com/oss/201807/24/3067cd8f4dbe50015176293484c238f3.jpg-wh_173x112-s_3550245619.jpg'></a><p><a href="http://ai.51cto.com"  target="_blank">AI</a></p></div>
+                    <div class="rinfo">
+                    	<a href="http://ai.51cto.com/art/201807/579633.htm"  target="_blank">人工智能算法基于注意力机制的单图像超分辨率方法区分纹理和平滑</a>
+                        <p>人工智能算法基于注意力机制的单图像超分辨率方法区分纹理和平滑摘要： 单图像超分辨率（SISR）的主要挑战</p>
+                        <div class="time"><i>2018-07-24 17:00:57</i><span><a href='http://www.51cto.com/php/search.php?q=深度学习' target='_blank' class='tag'>深度学习</a><a href='http://www.51cto.com/php/search.php?q=机器学习' target='_blank' class='tag'>机器学习</a><a href='http://www.51cto.com/php/search.php?q=人工智能' target='_blank' class='tag'>人工智能</a></span> </div>
+                    </div>
+                    <div class="fx">
+                    <div class="fxlist bdsharebuttonbox" id="share">
+                    	<p>
+	                    	<a class="bds_tsina" data-cmd="tsina"></a>
+	                    	<a class="bds_qzone" data-cmd="qzone"></a>
+	                    	<a class="bds_sqq" data-cmd="sqq"></a>
+	                    	<a class="bds_weixin" data-cmd="weixin"></a>
+                    	</p>
+                    </div>
+                    </div>
+                </li>
+           	
+            	<li>
+                	<div class="pic"><a href=http://database.51cto.com/art/201807/579629.htm target='_blank'><img src='https://s1.51cto.com/oss/201807/24/b2e35e89a0c9d57b09b641ca8f63ac97.jpeg-wh_173x112-s_1432919014.jpeg'></a><p><a href="http://database.51cto.com"  target="_blank">数据库</a></p></div>
+                    <div class="rinfo">
+                    	<a href="http://database.51cto.com/art/201807/579629.htm"  target="_blank">MySQL主从架构-主库宕机如何恢复业务</a>
+                        <p>在我们日常工作场景，首先要做到架构无单点隐患，其次在优化【安全、性能、高可用、高并发等】，MySQL这款</p>
+                        <div class="time"><i>2018-07-24 16:40:29</i><span><a href='http://www.51cto.com/php/search.php?q=主库宕机' target='_blank' class='tag'>主库宕机</a><a href='http://www.51cto.com/php/search.php?q=主从架构' target='_blank' class='tag'>主从架构</a><a href='http://www.51cto.com/php/search.php?q=MySQL' target='_blank' class='tag'>MySQL</a></span> </div>
+                    </div>
+                    <div class="fx">
+                    <div class="fxlist bdsharebuttonbox" id="share">
+                    	<p>
+	                    	<a class="bds_tsina" data-cmd="tsina"></a>
+	                    	<a class="bds_qzone" data-cmd="qzone"></a>
+	                    	<a class="bds_sqq" data-cmd="sqq"></a>
+	                    	<a class="bds_weixin" data-cmd="weixin"></a>
+                    	</p>
+                    </div>
+                    </div>
+                </li>
+           	
+            	<li>
+                	<div class="pic"><a href=http://cloud.51cto.com/art/201807/579630.htm target='_blank'><img src='https://s4.51cto.com/oss/201807/24/de07097220ebc2f9bd67794fe5ff495c.jpg-wh_173x112-s_3049416502.jpg'></a><p><a href="http://cloud.51cto.com"  target="_blank">云计算</a></p></div>
+                    <div class="rinfo">
+                    	<a href="http://cloud.51cto.com/art/201807/579630.htm"  target="_blank">+AI时代，华为云创新加速人工智能行业落地</a>
+                        <p>华为云中国行今年的主题变成“在创新的道路上加速奔跑”，华为云用一年时间实现了多个领域的突破。</p>
+                        <div class="time"><i>2018-07-24 16:39:47</i><span><a href='http://www.51cto.com/php/search.php?q=AI上有信仰的云' target='_blank' class='tag'>AI上有信仰的云</a><a href='http://www.51cto.com/php/search.php?q=AI' target='_blank' class='tag'>AI</a><a href='http://www.51cto.com/php/search.php?q=华为云' target='_blank' class='tag'>华为云</a></span> </div>
+                    </div>
+                    <div class="fx">
+                    <div class="fxlist bdsharebuttonbox" id="share">
+                    	<p>
+	                    	<a class="bds_tsina" data-cmd="tsina"></a>
+	                    	<a class="bds_qzone" data-cmd="qzone"></a>
+	                    	<a class="bds_sqq" data-cmd="sqq"></a>
+	                    	<a class="bds_weixin" data-cmd="weixin"></a>
+                    	</p>
+                    </div>
+                    </div>
+                </li>
+           	
+            	<li>
+                	<div class="pic"><a href=http://os.51cto.com/art/201807/579625.htm target='_blank'><img src='https://s3.51cto.com/oss/201807/24/6b0bb9109b268d567a1bc1bdb78cb135.jpg-wh_173x112-s_3528448086.jpg'></a><p><a href="http://os.51cto.com"  target="_blank">系统</a></p></div>
+                    <div class="rinfo">
+                    	<a href="http://os.51cto.com/art/201807/579625.htm"  target="_blank">如何限制Windows 10中的带宽</a>
+                        <p>在本教程中，我们将教您在windows10的第一个和第二个平面中下载更新的特定时间限制带宽。这样，您可以指定</p>
+                        <div class="time"><i>2018-07-24 16:20:50</i><span><a href='http://www.51cto.com/php/search.php?q=带宽' target='_blank' class='tag'>带宽</a><a href='http://www.51cto.com/php/search.php?q=Windows 10' target='_blank' class='tag'>Windows 10</a><a href='http://www.51cto.com/php/search.php?q=Windows' target='_blank' class='tag'>Windows</a></span> </div>
+                    </div>
+                    <div class="fx">
+                    <div class="fxlist bdsharebuttonbox" id="share">
+                    	<p>
+	                    	<a class="bds_tsina" data-cmd="tsina"></a>
+	                    	<a class="bds_qzone" data-cmd="qzone"></a>
+	                    	<a class="bds_sqq" data-cmd="sqq"></a>
+	                    	<a class="bds_weixin" data-cmd="weixin"></a>
+                    	</p>
+                    </div>
+                    </div>
+                </li>
+           	
+            	<li>
+                	<div class="pic"><a href=http://cloud.51cto.com/art/201807/579626.htm target='_blank'><img src='https://s1.51cto.com/oss/201807/24/7a298bc621fd781e2adb9fedec48fa71.jpg-wh_173x112-s_2792523576.jpg'></a><p><a href="http://cloud.51cto.com"  target="_blank">云计算</a></p></div>
+                    <div class="rinfo">
+                    	<a href="http://cloud.51cto.com/art/201807/579626.htm"  target="_blank">第十届中国云计算大会开幕，“云界十年”评选结果正式公布</a>
+                        <p>第十届中国云计算大会以“聚力云上生态 赋能实体经济”为主题，邀请了数十位海内外权威嘉宾出席，旨在通过</p>
+                        <div class="time"><i>2018-07-24 16:16:52</i><span><a href='http://www.51cto.com/php/search.php?q=第十届云计算大会' target='_blank' class='tag'>第十届云计算大会</a><a href='http://www.51cto.com/php/search.php?q=评选' target='_blank' class='tag'>评选</a><a href='http://www.51cto.com/php/search.php?q=云计算' target='_blank' class='tag'>云计算</a></span> </div>
+                    </div>
+                    <div class="fx">
+                    <div class="fxlist bdsharebuttonbox" id="share">
+                    	<p>
+	                    	<a class="bds_tsina" data-cmd="tsina"></a>
+	                    	<a class="bds_qzone" data-cmd="qzone"></a>
+	                    	<a class="bds_sqq" data-cmd="sqq"></a>
+	                    	<a class="bds_weixin" data-cmd="weixin"></a>
+                    	</p>
+                    </div>
+                    </div>
+                </li>
+           	
+            	<li>
+                	<div class="pic"><a href=http://bigdata.51cto.com/art/201807/579618.htm target='_blank'><img src='https://s2.51cto.com/oss/201807/24/853d6fef96bad56b4bebdf49c4796057.jpeg-wh_173x112-s_3652376763.jpeg'></a><p><a href="http://bigdata.51cto.com"  target="_blank">大数据</a></p></div>
+                    <div class="rinfo">
+                    	<a href="http://bigdata.51cto.com/art/201807/579618.htm"  target="_blank">使用Numpy和Opencv完成图像的基本数据分析（Part II）</a>
+                        <p>本文主要介绍使用Numpy和Opencv完成图像的基本数据分析后续部分，主要包含逻辑运算符操作、掩膜以及卫星图</p>
+                        <div class="time"><i>2018-07-24 16:00:38</i><span><a href='http://www.51cto.com/php/search.php?q=分析' target='_blank' class='tag'>分析</a><a href='http://www.51cto.com/php/search.php?q=数字图像' target='_blank' class='tag'>数字图像</a><a href='http://www.51cto.com/php/search.php?q=Opencv' target='_blank' class='tag'>Opencv</a></span> </div>
+                    </div>
+                    <div class="fx">
+                    <div class="fxlist bdsharebuttonbox" id="share">
+                    	<p>
+	                    	<a class="bds_tsina" data-cmd="tsina"></a>
+	                    	<a class="bds_qzone" data-cmd="qzone"></a>
+	                    	<a class="bds_sqq" data-cmd="sqq"></a>
+	                    	<a class="bds_weixin" data-cmd="weixin"></a>
+                    	</p>
+                    </div>
+                    </div>
+                </li>
+           	
+            	<li>
+                	<div class="pic"><a href=http://os.51cto.com/art/201807/579615.htm target='_blank'><img src='https://s3.51cto.com/oss/201807/24/e003b49f2988ca6b2a2ad425b5a4a19a.jpg-wh_173x112-s_3698195739.jpg'></a><p><a href="http://os.51cto.com"  target="_blank">系统</a></p></div>
+                    <div class="rinfo">
+                    	<a href="http://os.51cto.com/art/201807/579615.htm"  target="_blank">如何更改Windows 10上的回收站存储设置</a>
+                        <p>在windows10上，回收站是一个很好的功能，旨在存储已删除的文件，而不是立即从硬盘驱动器中删除它们。如果</p>
+                        <div class="time"><i>2018-07-24 15:46:56</i><span><a href='http://www.51cto.com/php/search.php?q=回收站' target='_blank' class='tag'>回收站</a><a href='http://www.51cto.com/php/search.php?q=Windows 10' target='_blank' class='tag'>Windows 10</a><a href='http://www.51cto.com/php/search.php?q=Windows' target='_blank' class='tag'>Windows</a></span> </div>
+                    </div>
+                    <div class="fx">
+                    <div class="fxlist bdsharebuttonbox" id="share">
+                    	<p>
+	                    	<a class="bds_tsina" data-cmd="tsina"></a>
+	                    	<a class="bds_qzone" data-cmd="qzone"></a>
+	                    	<a class="bds_sqq" data-cmd="sqq"></a>
+	                    	<a class="bds_weixin" data-cmd="weixin"></a>
+                    	</p>
+                    </div>
+                    </div>
+                </li>
+           	
+            	<li>
+                	<div class="pic"><a href=http://zhuanlan.51cto.com/art/201807/579616.htm target='_blank'><img src='https://s4.51cto.com/oss/201807/24/13b1b443f1da87bfe651c7add9f572ee.png-wh_173x112-s_1160796658.png'></a><p><a href="http://zhuanlan.51cto.com"  target="_blank">专栏</a></p></div>
+                    <div class="rinfo">
+                    	<a href="http://zhuanlan.51cto.com/art/201807/579616.htm"  target="_blank">Google 的后端工程师都开始写小程序了？反编译 “猜画小歌”看看</a>
+                        <p>今天 Google 在微信发布了一款小程序“猜画小歌”，都已经刷爆朋友圈了。没想到谷歌重返中国第一个应用竟然</p>
+                        <div class="time"><i>2018-07-24 15:46:05</i><span><a href='http://www.51cto.com/php/search.php?q=程序' target='_blank' class='tag'>程序</a><a href='http://www.51cto.com/php/search.php?q=反编译' target='_blank' class='tag'>反编译</a><a href='http://www.51cto.com/php/search.php?q=Google' target='_blank' class='tag'>Google</a></span> </div>
+                    </div>
+                    <div class="fx">
+                    <div class="fxlist bdsharebuttonbox" id="share">
+                    	<p>
+	                    	<a class="bds_tsina" data-cmd="tsina"></a>
+	                    	<a class="bds_qzone" data-cmd="qzone"></a>
+	                    	<a class="bds_sqq" data-cmd="sqq"></a>
+	                    	<a class="bds_weixin" data-cmd="weixin"></a>
+                    	</p>
+                    </div>
+                    </div>
+                </li>
+           	
+            	<li>
+                	<div class="pic"><a href=http://biz.51cto.com/art/201807/579612.htm target='_blank'><img src='https://s4.51cto.com/oss/201807/24/a2882a77d40d8ba80d0e0f4da14feab6.jpg-wh_173x112-s_41199631.jpg'></a><p><a href="http://biz.51cto.com"  target="_blank">外设</a></p></div>
+                    <div class="rinfo">
+                    	<a href="http://biz.51cto.com/art/201807/579612.htm"  target="_blank">QLC成闪存新主流：或将终结SSD高价低容量时代</a>
+                        <p>在数据大爆炸的时代，人们对SSD容量的需求越来越多，存储的容量面临着前所未有的挑战。继TLC固态硬盘成为主</p>
+                        <div class="time"><i>2018-07-24 15:28:46</i><span><a href='http://www.51cto.com/php/search.php?q=容量' target='_blank' class='tag'>容量</a><a href='http://www.51cto.com/php/search.php?q=SSD' target='_blank' class='tag'>SSD</a><a href='http://www.51cto.com/php/search.php?q=闪存' target='_blank' class='tag'>闪存</a></span> </div>
+                    </div>
+                    <div class="fx">
+                    <div class="fxlist bdsharebuttonbox" id="share">
+                    	<p>
+	                    	<a class="bds_tsina" data-cmd="tsina"></a>
+	                    	<a class="bds_qzone" data-cmd="qzone"></a>
+	                    	<a class="bds_sqq" data-cmd="sqq"></a>
+	                    	<a class="bds_weixin" data-cmd="weixin"></a>
+                    	</p>
+                    </div>
+                    </div>
+                </li>
+           	
+            	<li>
+                	<div class="pic"><a href=http://news.51cto.com/art/201807/579611.htm target='_blank'><img src='https://s2.51cto.com/oss/201807/24/cad082cb7e5175b0d42fdf94b3b235db.jpeg-wh_173x112-s_2827930755.jpeg'></a><p><a href="http://news.51cto.com"  target="_blank">新闻</a></p></div>
+                    <div class="rinfo">
+                    	<a href="http://news.51cto.com/art/201807/579611.htm"  target="_blank">纳德拉用了什么能耐，让微软起死回生？</a>
+                        <p>对于纳德拉来说，最难的是在不违反各地反垄断法律的前提下，将微软的企业服务软件、办公软件、云服务与Wind</p>
+                        <div class="time"><i>2018-07-24 15:28:24</i><span><a href='http://www.51cto.com/php/search.php?q= Google' target='_blank' class='tag'> Google</a><a href='http://www.51cto.com/php/search.php?q= Windows' target='_blank' class='tag'> Windows</a><a href='http://www.51cto.com/php/search.php?q=微软' target='_blank' class='tag'>微软</a></span> </div>
+                    </div>
+                    <div class="fx">
+                    <div class="fxlist bdsharebuttonbox" id="share">
+                    	<p>
+	                    	<a class="bds_tsina" data-cmd="tsina"></a>
+	                    	<a class="bds_qzone" data-cmd="qzone"></a>
+	                    	<a class="bds_sqq" data-cmd="sqq"></a>
+	                    	<a class="bds_weixin" data-cmd="weixin"></a>
+                    	</p>
+                    </div>
+                    </div>
+                </li>
+           	
+            	<li>
+                	<div class="pic"><a href=http://biz.51cto.com/art/201807/579610.htm target='_blank'><img src='https://s4.51cto.com/oss/201807/24/e5ad98fdf2c7686b5fa9f671cf9ffd7c.png-wh_173x112-s_98535298.png'></a><p><a href="http://biz.51cto.com"  target="_blank">外设</a></p></div>
+                    <div class="rinfo">
+                    	<a href="http://biz.51cto.com/art/201807/579610.htm"  target="_blank">苹果升级新MBP内部设计 主板崩溃数据无法恢复</a>
+                        <p>如果你购买了2018款MacBook Pro，那么主板是否健康很重要，因为维修专家们发现，苹果直接将固态硬盘被直接</p>
+                        <div class="time"><i>2018-07-24 15:26:01</i><span><a href='http://www.51cto.com/php/search.php?q=主板' target='_blank' class='tag'>主板</a><a href='http://www.51cto.com/php/search.php?q=MBP' target='_blank' class='tag'>MBP</a><a href='http://www.51cto.com/php/search.php?q=苹果' target='_blank' class='tag'>苹果</a></span> </div>
+                    </div>
+                    <div class="fx">
+                    <div class="fxlist bdsharebuttonbox" id="share">
+                    	<p>
+	                    	<a class="bds_tsina" data-cmd="tsina"></a>
+	                    	<a class="bds_qzone" data-cmd="qzone"></a>
+	                    	<a class="bds_sqq" data-cmd="sqq"></a>
+	                    	<a class="bds_weixin" data-cmd="weixin"></a>
+                    	</p>
+                    </div>
+                    </div>
+                </li>
+           	
+            	<li>
+                	<div class="pic"><a href=http://news.51cto.com/art/201807/579609.htm target='_blank'><img src='https://s4.51cto.com/oss/201807/24/91773d1e276ec7428290df9a7f701471.jpeg-wh_173x112-s_3472912289.jpeg'></a><p><a href="http://news.51cto.com"  target="_blank">新闻</a></p></div>
+                    <div class="rinfo">
+                    	<a href="http://news.51cto.com/art/201807/579609.htm"  target="_blank">谷歌全员用上了物理密匙，从此没人被"钓鱼"攻击</a>
+                        <p>7 月 24 日消息，据 CNET 报道，事实证明，谷歌帮助员工对抗网络“钓鱼”攻击的关键就在于物理密匙。</p>
+                        <div class="time"><i>2018-07-24 15:23:18</i><span><a href='http://www.51cto.com/php/search.php?q=APP ' target='_blank' class='tag'>APP </a><a href='http://www.51cto.com/php/search.php?q=钓鱼' target='_blank' class='tag'>钓鱼</a><a href='http://www.51cto.com/php/search.php?q=谷歌' target='_blank' class='tag'>谷歌</a></span> </div>
+                    </div>
+                    <div class="fx">
+                    <div class="fxlist bdsharebuttonbox" id="share">
+                    	<p>
+	                    	<a class="bds_tsina" data-cmd="tsina"></a>
+	                    	<a class="bds_qzone" data-cmd="qzone"></a>
+	                    	<a class="bds_sqq" data-cmd="sqq"></a>
+	                    	<a class="bds_weixin" data-cmd="weixin"></a>
+                    	</p>
+                    </div>
+                    </div>
+                </li>
+           	
+            	<li>
+                	<div class="pic"><a href=http://blockchain.51cto.com/art/201807/579613.htm target='_blank'><img src='https://s2.51cto.com/oss/201807/24/8fe94c57c042e56dab5036e9db4008fb.jpeg-wh_173x112-s_548793618.jpeg'></a><p><a href="http://blockchain.51cto.com"  target="_blank">区块链</a></p></div>
+                    <div class="rinfo">
+                    	<a href="http://blockchain.51cto.com/art/201807/579613.htm"  target="_blank">区块链到底有多神奇？三个案例告诉你答案</a>
+                        <p>区块链已经在很大程度上改变了我们的日常生活。这项技术正在三个重要的领域产生着连锁反应。</p>
+                        <div class="time"><i>2018-07-24 15:22:30</i><span><a href='http://www.51cto.com/php/search.php?q=比特币' target='_blank' class='tag'>比特币</a><a href='http://www.51cto.com/php/search.php?q=数字货币' target='_blank' class='tag'>数字货币</a><a href='http://www.51cto.com/php/search.php?q=区块链' target='_blank' class='tag'>区块链</a></span> </div>
+                    </div>
+                    <div class="fx">
+                    <div class="fxlist bdsharebuttonbox" id="share">
+                    	<p>
+	                    	<a class="bds_tsina" data-cmd="tsina"></a>
+	                    	<a class="bds_qzone" data-cmd="qzone"></a>
+	                    	<a class="bds_sqq" data-cmd="sqq"></a>
+	                    	<a class="bds_weixin" data-cmd="weixin"></a>
+                    	</p>
+                    </div>
+                    </div>
+                </li>
+           	
+            	<li>
+                	<div class="pic"><a href=http://news.51cto.com/art/201807/579608.htm target='_blank'><img src='https://s1.51cto.com/oss/201807/24/5e7c88e382294ab6c02aff778ddd5290.png-wh_173x112-s_3326076728.png'></a><p><a href="http://news.51cto.com"  target="_blank">新闻</a></p></div>
+                    <div class="rinfo">
+                    	<a href="http://news.51cto.com/art/201807/579608.htm"  target="_blank">微软为UWP应用开发者推出WinUI库预览</a>
+                        <p>为了让开发者更轻松地构建 Windows 10 应用程序，微软一直在努力改进现有软件和发布新工具。</p>
+                        <div class="time"><i>2018-07-24 15:15:37</i><span><a href='http://www.51cto.com/php/search.php?q= 开发' target='_blank' class='tag'> 开发</a><a href='http://www.51cto.com/php/search.php?q= Windows' target='_blank' class='tag'> Windows</a><a href='http://www.51cto.com/php/search.php?q=微软' target='_blank' class='tag'>微软</a></span> </div>
+                    </div>
+                    <div class="fx">
+                    <div class="fxlist bdsharebuttonbox" id="share">
+                    	<p>
+	                    	<a class="bds_tsina" data-cmd="tsina"></a>
+	                    	<a class="bds_qzone" data-cmd="qzone"></a>
+	                    	<a class="bds_sqq" data-cmd="sqq"></a>
+	                    	<a class="bds_weixin" data-cmd="weixin"></a>
+                    	</p>
+                    </div>
+                    </div>
+                </li>
+           	
+            </ul>
+            <div class="more"><a href="javascript:;">加载更多</a></div>
+        </div><!--home-left-list end-->
+		<div class="home-left-list" id="show-list" style="display: none;">
+			<ul></ul>
+			<div class="more" id="more-list"><a href="javascript:;">加载更多</a></div>
+		</div>
+    </div>
+    <div class="home-right fl mt10">
+    	<div class="rbor rtopline fl">
+        	<div class="rtit">今日重点<a class="change" href="javascript:;"></a></div>
+            <div class="zd-list">
+            	<ul>
+                	
+				    <li><a href="" target="_blank"><i class="tcolor"></i></a><a href="http://developer.51cto.com/art/201807/579665.htm" title="" target="_blank"><span>一文深入了解：分布式系统中的缓存架构</span></a></li>
+				    
+				    <li><a href="http://www.51cto.com/tag/translation" target="_blank"><i class="tcolor">译文 | </i></a><a href="http://network.51cto.com/art/201807/579555.htm" title="" target="_blank"><span>你要为即将到来的6G无线技术作好准备</span></a></li>
+				    
+				    <li><a href="http://zhuanlan.51cto.com" target="_blank"><i class="tcolor">专栏 | </i></a><a href="http://zhuanlan.51cto.com/art/201807/579607.htm" title="" target="_blank"><span>外媒速递：从Windows 7到Windows 10的迁移之旅</span></a></li>
+				    
+				    <li><a href="http://zhuanlan.51cto.com" target="_blank"><i class="tcolor"></i></a><a href="http://news.51cto.com/art/201807/579662.htm" title="" target="_blank"><span>【深度】难道我们真的永远也理解不了人工智能吗？</span></a></li>
+				    
+				    <li><a href="http://www.51cto.com/tag/original" target="_blank"><i class="tcolor">原创 | </i></a><a href="http://ai.51cto.com/art/201807/579638.htm" title="" target="_blank"><span>AR干货|没时间解释了，快收藏！</span></a></li>
+				    
+				    <li><a href="http://www.51cto.com/tag/original" target="_blank"><i class="tcolor"></i></a><a href="http://news.51cto.com/art/201807/579657.htm" title="" target="_blank"><span>【推荐】给Java程序员的Angular快速指南</span></a></li>
+				    
+				    <li><a href="http://www.51cto.com/tag/original" target="_blank"><i class="tcolor"></i></a><a href="http://developer.51cto.com/art/201807/579556.htm" title="" target="_blank"><span>我花了14个小时，终于找到了长春长生们究竟卖到了哪里去</span></a></li>
+				    
+				    <li><a href="http://www.51cto.com/tag/original" target="_blank"><i class="tcolor"></i></a><a href="http://bigdata.51cto.com/art/201807/579622.htm" title="" target="_blank"><span>使用Numpy和Opencv完成基本图像的数据分析（Part I）</span></a></li>
+				    
+                </ul>
+            </div>
+        </div>
+        <div class="rbor rtopline fl mt15">
+            <div class="rtit"><a href="http://wot.51cto.com/act/wot2018/dev/?51cto" target="_blank" style="color:#BE0000">WOT全球软件与运维技术峰会</a>
+        <a class="change change2" href="javascript:void(0);" onclick="$(this).unbind('click'); var show = $('.wot_ul:visible'); show.hide(); if(show.next().length > 0) {show.next().show();} else {show.siblings(':first').show();}"></a>
+    </div>
+    <div class="rmzw_xx">
+        <ul class="wot_ul">
+            <li><span class="ico"></span><a href="http://network.51cto.com/art/201806/577348.htm" target="_blank">饿了么李健：eleme容器平台的演进</a></li>
+            <li><span class="ico"></span><a href="http://network.51cto.com/art/201806/577445.htm" target="_blank">淘宝徐冬晨：JVM—Sandbox 基于JVM的非侵入式运行期AOP解决方案</a></li>
+            <li><span class="ico"></span><a href="http://cloud.51cto.com/art/201806/576302.htm" target="_blank">沈剑：58速运架构解耦与微服务实践</a></li>
+            <li><span class="ico"></span><a href="http://network.51cto.com/art/201806/575902.htm" target="_blank">eBay茹炳晟：一个优秀的测试基础架构是如何炼成的?</a></li>
+            <li><span class="ico"></span><a href="http://cloud.51cto.com/art/201806/576325.htm" target="_blank">史扬：边缘计算参考架构2.0实践与思考</a></li>
+            <li><span class="ico"></span><a href="http://developer.51cto.com/art/201806/577056.htm" target="_blank">郑长帅：揭秘摩拜国际化背后的IoT技术支撑</a></li>
+            <li><span class="ico"></span><a href="http://developer.51cto.com/art/201806/577061.htm" target="_blank">WRTnode罗未：物联网在制造行业的赚钱模型</a></li>
+        </ul>
+        <ul class="wot_ul" style="display: none;">
+            <li><span class="ico"></span><a href="http://blockchain.51cto.com/art/201806/577224.htm" target="_blank">万云李晨：区块链将颠覆掉云计算，成为一种融合模式</a></li>
+            <li><span class="ico"></span><a href="http://blockchain.51cto.com/art/201806/577403.htm" target="_blank">广电运通区块链CEO邹均：解读区块链技术发展方向</a></li>
+            <li><span class="ico"></span><a href="http://news.51cto.com/art/201806/576239.htm" target="_blank">不空谈!轻松筹将区块链落地公益和互助行业</a></li>
+            <li><span class="ico"></span><a href="http://network.51cto.com/art/201806/576618.htm" target="_blank">如何用好大数据？51信用卡刘建辉揭秘大数据应用产品进阶之道</a></li>
+            <li><span class="ico"></span><a href="http://network.51cto.com/art/201806/576755.htm" target="_blank">同程艺龙王晓波：缓存应该这样治理，高并发场景才能游刃有余!</a></li>
+            <li><span class="ico"></span><a href="http://cloud.51cto.com/art/201806/575519.htm" target="_blank">WOT董明鑫：容器技术在雪球的实践</a></li>
+            <li><span class="ico"></span><a href="http://network.51cto.com/art/201807/577643.htm" target="_blank">张阜兴：知乎容器平台演进及与大数据融合实践</a></li>
+        </ul>
+        <ul class="wot_ul" style="display: none;">
+            <li><span class="ico"></span><a href="http://network.51cto.com/art/201803/568071.htm" target="_blank">ebay茹炳晟：测试基础架构“庖丁解牛”</a></li>
+            <li><span class="ico"></span><a href="http://cloud.51cto.com/art/201803/568147.htm" target="_blank">58速运沈剑：微服务架构的最佳实践</a></li>
+            <li><span class="ico"></span><a href="http://blockchain.51cto.com/art/201803/568431.htm" target="_blank">万云李晨：传统行业拥抱区块链</a></li>
+            <li><span class="ico"></span><a href="http://news.51cto.com/art/201803/568959.htm" target="_blank">极光组闫青：揭开区块链的神秘面纱</a></li>
+            <li><span class="ico"></span><a href="http://developer.51cto.com/art/201803/568378.htm" target="_blank">魅族张兴业：Weex技术小应用实践</a></li>
+            <li><span class="ico"></span><a href="http://ai.51cto.com/art/201803/568429.htm" target="_blank">苏宁易购高超：AI技术+短视频应用实践</a></li>
+            <li><span class="ico"></span><a href="http://developer.51cto.com/art/201803/568224.htm" target="_blank">阿里巴巴徐冬晨：JVM-Sandbox脑洞大开</a></li>
+        </ul>
+        <ul class="wot_ul" style="display: none;">
+            <li><span class="ico"></span><a href="http://stor.51cto.com/art/201804/569556.htm" target="_blank">ThoughtWorks秦五一：持续集成之腐化与涅槃重生</a></li>
+            <li><span class="ico"></span><a href="http://stor.51cto.com/art/201803/569018.htm" target="_blank">招银云创陈沙克：利用PaaS即可管理一切</a></li>
+            <li><span class="ico"></span><a href="http://developer.51cto.com/art/201803/569011.htm" target="_blank">张阜兴：容器将成为未来操作系统中的一部分</a></li>
+            <li><span class="ico"></span><a href="http://cloud.51cto.com/art/201804/569786.htm" target="_blank">臧成威：美团点评客户端基于响应式的架构实践</a></li>
+            <li><span class="ico"></span><a href="http://news.51cto.com/art/201803/569153.htm" target="_blank">轻松筹CTO李汐：区块链技术在轻松筹的应用</a></li>
+            <li><span class="ico"></span><a href="http://developer.51cto.com/art/201803/569483.htm" target="_blank">宜信张真：AIOps六大技术难点</a></li>
+            <li><span class="ico"></span><a href="http://bigdata.51cto.com/art/201804/570531.htm" target="_blank">郭炜：新一代去ETL化的IOTA架构</a></li>
+        </ul>
+        <ul class="wot_ul" style="display: none;">
+            <li><span class="ico"></span><a href="http://ai.51cto.com/art/201804/569521.htm" target="_blank">孙林：链家探索人工智能技术</a></li>
+            <li><span class="ico"></span><a href="http://network.51cto.com/art/201803/569328.htm" target="_blank">仙云森：O2O搜索中，算法无处不在</a></li>
+            <li><span class="ico"></span><a href="http://cloud.51cto.com/art/201804/569688.htm" target="_blank">饿了么李健：打造计算力服务的一站式交付</a></li>
+            <li><span class="ico"></span><a href="http://news.51cto.com/art/201804/570030.htm" target="_blank">视+AR创始人&CEO张小军：推动AR产业发展</a></li>
+            <li><span class="ico"></span><a href="http://cloud.51cto.com/art/201803/568831.htm" target="_blank">董明鑫：Docker在雪球的前世今生</a></li>
+            <li><span class="ico"></span><a href="http://ai.51cto.com/art/201803/568429.htm" target="_blank">苏宁易购高超：AI技术+短视频应用实践</a></li>
+            <li><span class="ico"></span><a href="http://developer.51cto.com/art/201803/568224.htm" target="_blank">阿里巴巴徐冬晨：JVM-Sandbox脑洞大开</a></li>
+        </ul>
+        <ul class="wot_ul" style="display: none;">
+            <li><span class="ico"></span><a href="http://network.51cto.com/art/201806/577348.htm" target="_blank">饿了么李健：eleme容器平台的演进</a></li>
+            <li><span class="ico"></span><a href="http://network.51cto.com/art/201806/577445.htm" target="_blank">淘宝徐冬晨：JVM—Sandbox 基于JVM的非侵入式运行期AOP解决方案</a></li>
+            <li><span class="ico"></span><a href="http://cloud.51cto.com/art/201806/576302.htm" target="_blank">沈剑：58速运架构解耦与微服务实践</a></li>
+            <li><span class="ico"></span><a href="http://network.51cto.com/art/201806/575902.htm" target="_blank">eBay茹炳晟：一个优秀的测试基础架构是如何炼成的?</a></li>
+            <li><span class="ico"></span><a href="http://cloud.51cto.com/art/201806/576325.htm" target="_blank">史扬：边缘计算参考架构2.0实践与思考</a></li>
+            <li><span class="ico"></span><a href="http://developer.51cto.com/art/201806/577056.htm" target="_blank">郑长帅：揭秘摩拜国际化背后的IoT技术支撑</a></li>
+            <li><span class="ico"></span><a href="http://developer.51cto.com/art/201806/577061.htm" target="_blank">WRTnode罗未：物联网在制造行业的赚钱模型</a></li>
+        </ul>
+    </div>
+            <dl class="ctoll1 clearfix">
+                <dd>
+                    <a href="http://wot.51cto.com/act/wot2018/dev/?51cto" target="_blank"style="color:#BE0000">峰会官网</a>
+                    <a href="http://wot.51cto.com/act/wot2018/dev/?51cto" target="_blank"style="color:#BE0000">立即购票</a>
+                    <a href="http://wot.51cto.com/act/wot2018/dev/?51cto" target="_blank">议题提交</a>
+                </dd>
+            </dl>
+        </div>
+        <div class="rbox fl mt6" id="intel_ad">
+        </div>
+        <div class="rbor rtopline fl mt6">
+        	<div class="rtit">快速通道</div>
+            <div class="td-list">
+            	<ul>
+    <li>
+        <div class="list">
+<a href="http://blockchain.51cto.com/" target="_blank">区块链</a>
+<a href="http://club.51cto.com/?quick" target="_blank">CTO俱乐部</a>
+<a href="http://os.51cto.com/col/545/" target="_blank">运维</a>
+<a href="http://www.51cto.com/php/search.php?q=Docker&ie=utf-8&t=news&s=" target="_blank">Docker</a>
+<a href="http://www.51cto.com/php/search.php?q=HTML+5&ie=utf-8&t=news&s=" target="_blank">HTML5</a>
+<a href="http://iot.51cto.com/" target="_blank">物联网</a>
+<a href="http://www.51cto.com/php/search.php?q=Swift&ie=utf-8&t=news&s=" target="_blank">Swift</a>
+<a href="http://www.51cto.com/php/search.php?q=虚拟现实" target="_blank">虚拟现实</a>
+<a href="http://www.51cto.com/php/search.php?q=Python&ie=utf-8&t=edu&s=" target="_blank">Python</a>
+<a href="http://www.51cto.com/php/search.php?q=DevOps&ie=utf-8&t=news&s=" target="_blank">DevOps</a>
+
+</div>
+        <div class="td-tit"><a href="http://so.51cto.com/" target="_blank">话题</a></div>
+    </li>
+    <li>
+        <div class="list">
+<a href="http://www.51cto.com/col/1189/" target="_blank">滚动新闻</a>
+<a href="http://network.51cto.com/act/Cisco_content/201803" target="_blank">思科专区</a>
+<a href="http://cloud.51cto.com/act/aws/zone2018" target="_blank">AWS</a>
+<a href="http://cloud.51cto.com/act/ucloud/201804" target="_blank">UCloud专区</a>
+<a href="http://cloud.51cto.com/art/201505/478170.htm" target="_blank">Ceph</a>
+<a href="http://network.51cto.com/act/citrix2018/06" target="_blank">Citrix</a>
+<a href="http://cloud.51cto.com/art/201703/535886.htm" target="_blank">云计算</a>
+<a href="http://stor.51cto.com/act/Flash/18Q3" target="_blank">IBM闪存</a>
+<a href="http://developer.51cto.com/art/201707/545815.htm" target="_blank">人脸</a>
+
+
+
+</div>
+        <div class="td-tit"><a href="http://www.51cto.com/tag/specials" target="_blank">专题</a></div>
+    </li>
+</ul>
+            </div>
+        </div>
+        <div class="rbor rtopline fl mt8">
+        	<div class="rtit">51CTO学院 <a href="http://edu.51cto.com/" class="more1" target="_blank">+更多</a></div>
+            <div class="rmzw_xx">
+                <ul>
+                    
+                    <li><span class="ico"></span><a href="http://edu.51cto.com/mic-position/277.html" target="_blank" title="通信工程师 -互联网技术">通信工程师 -互联网技术(共0个课时)</a></li>
+                    
+                    <li><span class="ico"></span><a href="http://edu.51cto.com/course/course_id-13403.html?edu_recommend_adid=73" target="_blank" title="区块链系列视频课程之智能合约简介">区块链系列视频课程之智能合约简介(共1个课时)</a></li>
+                    
+                    <li><span class="ico"></span><a href="http://edu.51cto.com/course/course_id-14188.html?edu_recommend_adid=73" target="_blank" title="基于ITIL的IT服务管理企业实战课程">基于ITIL的IT服务管理企业实战课程(共3个课时)</a></li>
+                    
+                    <li><span class="ico"></span><a href="http://edu.51cto.com/course/course_id-14222.html?edu_recommend_adid=73" target="_blank" title="2018上半年国际热点安全事件解析">2018上半年国际热点安全事件解析(共1个课时)</a></li>
+                    
+                </ul>
+                <dl class="ctoll clearfix">
+                    <dt><span>就业培训</span></dt>
+                    <dd>
+                           <A href="http://edu.51cto.com/px/train/248?www3" target="_blank" style="color:#BE0000">Python</A>
+                           <A href="http://edu.51cto.com/px/train/182?www3" target="_blank">Java</A>
+                           <A href="http://edu.51cto.com/px/train/165?www3" target="_blank">人工智能</A>
+                          <A href="http://edu.51cto.com/px/train/243?www3" target="_blank">大数据</A>
+                          <A href="http://edu.51cto.com/px/train/115?www3" target="_blank">Linux</A>
+                         <A href="http://edu.51cto.com/px/train/303?www3" target="_blank">MySQL</A>
+                         <A href="http://edu.51cto.com/px/train/186?www3" target="_blank">Web前端</A>
+                       <A href="http://edu.51cto.com/px/train/131?www3" target="_blank">Oracle</A>
+                       <A href="http://edu.51cto.com/px/train/132?www3" target="_blank">Windows</A>
+                       
+                    </dd>
+                  </dl>
+ <dl class="ctoll clearfix">
+                    <dt><span>考试培训</span></dt>
+                    <dd>
+                          <A href="http://edu.51cto.com/px/train/157?www3" target="_blank" style="color:#BE0000">PMP认证</A>
+                         <A href="http://edu.51cto.com/px/train/127?www3" target="_blank">软考认证</A>                          
+                          <A href="http://edu.51cto.com/px/train/130?www3" target="_blank">华为认证</A>
+                          <A href="http://edu.51cto.com/px/train/105?www3" target="_blank">红帽认证</A>
+
+
+                    </dd>
+                  </dl>
+ 
+            </div>
+        </div>
+        <div class="rbor rtopline fl mt15">
+            <div class="rtit"><a href="http://tn.51cto.com/" target="_blank">Tech Neo 社区</a><a href="http://tn.51cto.com/articles" class="more1" target="_blank">+更多</a></div>
+            <div class="ph-list">
+                <ul>
+                    
+                    <li class="line">
+                        <span class="redbg">1</span>
+                        <div class="rinfo1">
+                            <a href="https://tn.51cto.com/article/269" target="_blank" title="Python 道生一，一生二，二生三，三生万物" style="display:block; overflow:hidden; height:22px; line-height:22px;">Python 道生一，一生二，二生三，三生万</a>
+                            <p>千万不要被所谓“元类是99%的python程序员不会用到的特性”这类的说辞吓住。因为每个<a href="https://tn.51cto.com/article/269" target="_blank" title="Python 道生一，一生二，二生三，三生万物">&#160;&#160;[详细]</a></p>
+                        </div>
+                    </li>
+                    
+                    
+                    <li>
+                        <span class="redbg">2</span>
+                        <div class="rinfo">
+                            <a href="https://tn.51cto.com/article/270" target="_blank" title="SSO单点登录原理与简单实现">SSO单点登录原理与简单实现</a>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <span class="redbg">3</span>
+                        <div class="rinfo">
+                            <a href="https://tn.51cto.com/article/487" target="_blank" title="谁说颜值与实力不能并存？3.14最美女神入驻TechNeo，邀你一起聊AI与区块链那些事">谁说颜值与实力不能并存？3.14最美女神入</a>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <span class="redbg">4</span>
+                        <div class="rinfo">
+                            <a href="https://tn.51cto.com/article/345" target="_blank" title="【直播】58沈剑：亿级数据量高并发下数据库水平切分的结构设计">【直播】58沈剑：亿级数据量高并发下数据</a>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <span class="redbg">5</span>
+                        <div class="rinfo">
+                            <a href="https://tn.51cto.com/article/417" target="_blank" title="三位大咖入驻Tech Neo，等你来“刁难”">三位大咖入驻Tech Neo，等你来“刁难”</a>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="rbor rtopline fl mt15">
+        	<div class="rtit">一周排行</div>
+            <div class="ph-list">
+            	<ul>
+            		
+                	<li class="line">
+                    	<span class="redbg">1</span>
+                        <div class="rinfo1">
+                        	<a href="http://server.51cto.com/Net-578110.htm" target="_blank" title="“无限流量”套餐偷偷扣钱，工信部都看不下去了！" style="display:block; overflow:hidden; height:22px; line-height:22px;">“无限流量”套餐偷偷扣钱，工信部都看不</a>
+                            <p>生活在这个一机在手，吃喝不愁的互联网搞机时代。每到月底，唐唐不仅钱包瘪瘪，流量包<a href="http://server.51cto.com/Net-578110.htm" target="_blank" title="“无限流量”套餐偷偷扣钱，工信部都看不下去了！">&#160;&#160;[详细]</a></p>
+                        </div>
+                    </li>
+                    
+                   
+                   <li>
+                    	<span class="redbg">2</span>
+                        <div class="rinfo">
+                        	<a href="http://news.51cto.com/art/201807/578381.htm" target="_blank" title="90%的程序员，这些基础知识都没学好">90%的程序员，这些基础知识都没学好</a>
+                        </div>
+                    </li>
+                    
+                   <li>
+                    	<span class="redbg">3</span>
+                        <div class="rinfo">
+                        	<a href="http://server.51cto.com/Net-578086.htm" target="_blank" title="5G标准确立！是中国主导吗？这才是真相">5G标准确立！是中国主导吗？这才是真相</a>
+                        </div>
+                    </li>
+                    
+                   <li>
+                    	<span class="redbg">4</span>
+                        <div class="rinfo">
+                        	<a href="http://developer.51cto.com/art/201807/579556.htm" target="_blank" title="我花了14个小时，终于找到了长春长生们究竟卖到了哪里去">我花了14个小时，终于找到了长春长生们究</a>
+                        </div>
+                    </li>
+                    
+                   <li>
+                    	<span class="redbg">5</span>
+                        <div class="rinfo">
+                        	<a href="http://zhuanlan.51cto.com/art/201807/579271.htm" target="_blank" title="2018年最严重的网络安全攻击事件（截至目前）">2018年最严重的网络安全攻击事件（截至目</a>
+                        </div>
+                    </li>
+                    
+                   <li>
+                    	<span class="redbg">6</span>
+                        <div class="rinfo">
+                        	<a href="http://netsecurity.51cto.com/art/201807/579212.htm" target="_blank" title="网络安全专家教你设置史上最安全WiFi密码">网络安全专家教你设置史上最安全WiFi密码</a>
+                        </div>
+                    </li>
+                    
+                   <li>
+                    	<span class="redbg">7</span>
+                        <div class="rinfo">
+                        	<a href="http://server.51cto.com/ManageDC-579262.htm" target="_blank" title="什么是三层交换技术，三层交换机与二层交换机的应用场景详解！">什么是三层交换技术，三层交换机与二层交</a>
+                        </div>
+                    </li>
+                    
+                   <li>
+                    	<span class="redbg">8</span>
+                        <div class="rinfo">
+                        	<a href="http://news.51cto.com/art/201807/579131.htm" target="_blank" title="12年后，中国将实行9小时工作制，程序员开心了">12年后，中国将实行9小时工作制，程序员</a>
+                        </div>
+                    </li>
+                     
+                </ul>
+            </div>
+        </div>
+        <div class="rbor rtopline fl mt15">
+            <div class="rtit"><a href="http://x.51cto.com?51ctoR" target="_blank" style="color:#BE0000">CTO训练营</a><a href="http://x.51cto.com/act/cto/camp/page/enroll?51ctoR" class="more1" target="_blank" style="color:#BE0000">2019全新招生</a></div>
+            <div class="newhd-list">
+                <ul>
+                  <li>
+            <h4><span>
+            11月4日线下</span><span>
+              以色列</span></h4>
+            <a title="走！去以色列技术交流，抢占最先名额" href="http://siliconvalley2018.mikecrm.com/69mBhlY" target="_blank" >
+         走！去以色列技术交流，抢占最先名额</a> </li>
+
+
+                  <li>
+            <h4><span>
+             7月21日-22日  线下 </span><span>
+              北京 </span></h4>
+            <a title="领导力课：了解自己和团队，做一个全能的领导者" href="http://x.51cto.com/act/cto/camp/page/detail/course_id/64" >          
+        领导力课：了解自己和团队，做一个全能的领导者</a> </li>               
+</ul>
+            </div>
+            <div class="rtit"><a href="http://club.51cto.com?51ctoR" target="_blank" style="color:#BE0000">CTO俱乐部</a><a href="http://club.51cto.com/act/cto/caff/page/member-notice?51ctoR" class="more2" target="_blank" style="color:#BE0000">优惠报名</a></div>
+            <div class="newhd-list">
+                <ul>
+
+               <li>
+            <h4><span>
+              7月28日 线下</span><span>
+              北京</span></h4>
+            <a title="走进火币集团：聊聊区块链技术的前世今生" href="http://club.51cto.com/act/cto/caff/page/detail/activity_id/31" target="_blank" >          
+           走进火币集团：聊聊区块链技术的前世今生</a> </li>               
+</ul>
+            </div>
+            <dl class="ctoll1 clearfix">
+                <dd>
+                    <a href="http://club.51cto.com/act/cto/caff/page/activity-list?51ctoR" target="_blank"style="color:#BE0000">Meetup</a>
+                    <a href="http://x.51cto.com/act/cto/camp/tutor/1/" target="_blank"style="color:#BE0000">CTO导师团</a>
+                    <a href="http://x.51cto.com/act/cto/camp/page/video?51ctoR" target="_blank">精彩视频</a>
+                </dd>
+            </dl>
+        </div>
+        <div class="rbor rtopline fl mt15">
+        	<div class="rtit">其他活动</div>
+            <div class="newhd-list">
+            	<ul>
+
+ <li>
+               <h4><span>
+               4月21日  </span><span>
+              北京</span></h4>
+            <a title="TechNeo技术沙龙第20期——区块链技术应用场景解读" 
+href="http://mdsa.51cto.com/act/TechNeo/TechNeo20" target="_blank">TechNeo技术沙龙第20期——区块链技术应用场景解读</a> </li>      
+
+
+<li>
+            <h4><span>
+             5月15日-6月15日</span><span>
+             在线调研</span></h4>
+            <a title="人工智能+区块链的发展趋势及应用调研报告" href="http://down.51cto.com/data/2447132"  target="_blank">
+        人工智能+区块链的发展趋势及应用调研报告
+</a> </li> 
+
+
+      <li>
+            <h4><span>
+             7月15日-7月20日 线上 </span><span>
+              技术栈</span></h4>
+            <a title="预测“程序员遇到最“奇葩”的需求竟然是（文末有福利）" href="http://news.51cto.com/art/201807/578871.htm"  target="_blank">         
+程序员遇到最“奇葩”的需求竟然是（文末有福利）
+</a> </li>
+  <li>
+            <h4><span>
+               5月18日-19日</span><span>
+              北京</span></h4>
+            <a title="【WOT2018】全球软件与运维技术峰会" href="http://wot.51cto.com/act/wot2018/dev" target="_blank">
+           【WOT2018】全球软件与运维技术峰会
+</a> </li>
+
+              </ul>
+            </div>
+        </div>
+        <div class="rbor rtopline fl mt15">
+        	<div class="rtit">专栏好文</div>
+            <div class="view-list">
+                <ul>
+                    
+                    <li class="mb10">
+                        <div class="info">
+                            <a href="http://zhuanlan.51cto.com/art/201807/579677.htm" target="_blank" style="height:auto;width:auto;">
+                                <img src="http://s2.51cto.com/wyfs02/M02/92/BE/wKiom1kCnP_hObc_AAByIzTlSYQ723.jpg" class="picw"></a>
+                            <p><a href="http://zhuanlan.51cto.com/art/201807/579677.htm" target="_blank" style="height:auto;width:auto;">达观数据:NLP概述和文本自动分类算法详解</a></p>
+                        </div>
+                    </li>
+                    
+                    
+                    <li><span class="ico"></span><a href="http://zhuanlan.51cto.com/art/201807/579616.htm" target="_blank">Google 的后端工程师都开始写小程序了？反</a></li>
+                    
+                    <li><span class="ico"></span><a href="http://zhuanlan.51cto.com/art/201807/579591.htm" target="_blank">提升事件响应准备度的3种新兴技术</a></li>
+                    
+                    <li><span class="ico"></span><a href="http://zhuanlan.51cto.com/art/201807/579590.htm" target="_blank">英国最低网络安全标准介绍</a></li>
+                    
+                    <li><span class="ico"></span><a href="http://zhuanlan.51cto.com/art/201807/579536.htm" target="_blank">阿里大数据技术如何进化？资深技术专家带你</a></li>
+                    
+                    <li><span class="ico"></span><a href="http://zhuanlan.51cto.com/art/201807/579525.htm" target="_blank">身份管理如何驱动安全</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="rbor rtopline fl mt15">
+            <div class="rtit">好文推荐<a href="http://blog.51cto.com/artcommend" class="more1" target="_blank">+更多</a></div>
+            <div class="ph-list">
+                <ul>
+                    
+                    <li>
+                        <span class="redbg">1</span>
+                        <div class="rinfo">
+                            <a href="http://blog.51cto.com/moerjinrong/2149584" title="在CentOS 7 / RHEL 7配置OpenLDAP服务" target="_blank">在CentOS 7 / RHEL 7配置OpenLDAP服务</a>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <span class="redbg">2</span>
+                        <div class="rinfo">
+                            <a href="http://blog.51cto.com/13876536/2149561" title="Kubeflow实战系列: 利用TFJob运行分布式TensorFlow" target="_blank">Kubeflow实战系列: 利用TFJob运行分布式T</a>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <span class="redbg">3</span>
+                        <div class="rinfo">
+                            <a href="http://blog.51cto.com/steed/2149546" title="Python自动化开发学习-RESTful API" target="_blank">Python自动化开发学习-RESTful API</a>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <span class="redbg">4</span>
+                        <div class="rinfo">
+                            <a href="http://blog.51cto.com/xiaorenwutest/2149545" title="docker-swarm容器固定到node节点启动" target="_blank">docker-swarm容器固定到node节点启动</a>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <span class="redbg">5</span>
+                        <div class="rinfo">
+                            <a href="http://blog.51cto.com/hsbxxl/2149531" title="MongoDB Replica Set 部署" target="_blank">MongoDB Replica Set 部署</a>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="rbor rtopline fl mt15">
+        	<div class="rtit">读书<a href="http://book.51cto.com/" class="more1" target="_blank">+更多</a></div>
+            <div class="newhd-list">
+            	<ul>
+            		
+                	<li class="mb10">
+                		<div class="info">
+                        	<a href="http://book.51cto.com/art/201807/578908.htm" target="_blank" title="Keras深度学习实战" style="height:auto;width:auto;"><img src="https://s1.51cto.com/oss/201807/16/14748f869ec44c0ffe0e7c424af45af8.gif" class="picw2"></a>
+                            <p><a href="http://book.51cto.com/art/201807/578908.htm" target="_blank" title="Keras深度学习实战" style="height:auto;width:auto;">Keras深度学习实战</a><br>本书用当前流行的Keras框架实现了大量深度学习算法，构建了众多深度学习模型，并且介绍了深度学习在游戏等实际场合中的应用，特别是本书还介绍了当前 ...</p>
+                        </div>
+                    </li>
+                    
+                    
+                    <li><span class="ico"></span><a href="http://book.51cto.com/art/201801/564325.htm" target="_blank" title="概率编程实战">概率编程实战</a></li>
+                    
+                    <li><span class="ico"></span><a href="http://book.51cto.com/art/201801/565108.htm" target="_blank" title="计算机科学概论（第12版）">计算机科学概论（第12版）</a></li>
+                    
+                    <li><span class="ico"></span><a href="http://book.51cto.com/art/201712/561016.htm" target="_blank" title="中文版 Creo 4.0 从入门到精通">中文版 Creo 4.0 从入门到精通</a></li>
+                    
+                    <li><span class="ico"></span><a href="http://book.51cto.com/art/201801/563596.htm" target="_blank" title="机器人构建实战">机器人构建实战</a></li>
+                    
+                    <li><span class="ico"></span><a href="http://book.51cto.com/art/201711/556659.htm" target="_blank" title="TCP IP路由技术(第2卷)(第2版)英文版">TCP IP路由技术(第2卷)(第2版)英文版</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="rbor rtopline fl mt15">
+        	<div class="rtit">下载排行<a href="http://down.51cto.com" class="more1" target="_blank">+更多</a></div>
+            <div class="ph-list">
+            	<ul>
+            		
+                	<li>
+                    	<span class="redbg">1</span>
+                        <div class="rinfo">
+                        	<a href="http://down.51cto.com/data/2449428" title="DHCP服务" target="_blank">DHCP服务</a>
+                        </div>
+                    </li>
+                    
+                	<li>
+                    	<span class="redbg">2</span>
+                        <div class="rinfo">
+                        	<a href="http://down.51cto.com/data/2449136" title="Linux Shell 实现自动化运维实践" target="_blank">Linux Shell 实现自动化运维实践</a>
+                        </div>
+                    </li>
+                    
+                	<li>
+                    	<span class="redbg">3</span>
+                        <div class="rinfo">
+                        	<a href="http://down.51cto.com/data/2449486" title="高项项目管理师速记口诀全书2.0" target="_blank">高项项目管理师速记口诀全书2.0</a>
+                        </div>
+                    </li>
+                    
+                	<li>
+                    	<span class="redbg">4</span>
+                        <div class="rinfo">
+                        	<a href="http://down.51cto.com/data/2449418" title="Oracle DBA日常维护手册(最全 最实用)" target="_blank">Oracle DBA日常维护手册(最全 最实用)</a>
+                        </div>
+                    </li>
+                    
+                	<li>
+                    	<span class="redbg">5</span>
+                        <div class="rinfo">
+                        	<a href="http://down.51cto.com/data/2449406" title="电脑报2018年第28期" target="_blank">电脑报2018年第28期</a>
+                        </div>
+                    </li>
+                    
+                    <!---->
+                    <!--<li>-->
+                    	<!--<span>4</span>-->
+                        <!--<div class="rinfo">-->
+                        	<!--<a href="http://down.51cto.com/data/2449428" title="DHCP服务" target="_blank">DHCP服务</a>-->
+                        <!--</div>-->
+                    <!--</li>-->
+                    <!---->
+                    <!--<li>-->
+                    	<!--<span>5</span>-->
+                        <!--<div class="rinfo">-->
+                        	<!--<a href="http://down.51cto.com/data/2449136" title="Linux Shell 实现自动化运维实践" target="_blank">Linux Shell 实现自动化运维实践</a>-->
+                        <!--</div>-->
+                    <!--</li>-->
+                    <!---->
+                    <!--<li>-->
+                    	<!--<span>6</span>-->
+                        <!--<div class="rinfo">-->
+                        	<!--<a href="http://down.51cto.com/data/2449486" title="高项项目管理师速记口诀全书2.0" target="_blank">高项项目管理师速记口诀全书2.0</a>-->
+                        <!--</div>-->
+                    <!--</li>-->
+                    <!---->
+                </ul>
+            </div>
+        </div>
+        <div class="rbor rtopline fl mt15">
+        	<div class="rtit">论坛热帖<a href="http://bbs.51cto.com/" class="more1" target="_blank">+更多</a></div>
+            <div class="newhd-list">
+            	<ul>
+                	
+        			<li><span class="ico"></span><a href="http://bbs.51cto.com/thread-1555704-1.html" target="_blank" title="谈谈大学毕业3年从会计到IT的感受">谈谈大学毕业3年从会计到IT的感受</a></li>
+     				
+        			<li><span class="ico"></span><a href="http://bbs.51cto.com/thread-1551020-1.html" target="_blank" title="一个从事IT 8年的独白">一个从事IT 8年的独白</a></li>
+     				
+        			<li><span class="ico"></span><a href="http://bbs.51cto.com/thread-1547370-1.html" target="_blank" title="财务总是嫌弃电脑卡">财务总是嫌弃电脑卡</a></li>
+     				
+        			<li><span class="ico"></span><a href="http://bbs.51cto.com/thread-1551276-1.html" target="_blank" title="大牛总结出来的python基础知识实例，超详细！">大牛总结出来的python基础知识实例</a></li>
+     				
+        			<li><span class="ico"></span><a href="http://bbs.51cto.com/thread-1550553-1.html" target="_blank" title="Liunx学习资料">Liunx学习资料</a></li>
+     				
+                </ul>
+            </div>
+        </div>
+        <div class="rbor rtopline fl mt15">
+        	<div class="rtit">期刊订阅<a href="http://home.51cto.com/subscribe" target="_blank" class="more1">+更多</a></div>
+            <div class="qk-list">
+            	<ul>
+                    
+        			<li><span class="ico"></span><a href="http://news.51cto.com/art/201707/546751.htm" target="_blank" title="四项技巧让你的Java代码更上一层楼_IT技术周刊第512期">四项技巧让你的Java代码更上一层楼_IT技术周刊第512期</a></li>
+        			
+        			<li><span class="ico"></span><a href="http://developer.51cto.com/art/201803/568013.htm" target="_blank" title="有奖调研 | 人脸识别功能在互联网行业认知度情况_移动开发周刊第270期">有奖调研 | 人脸识别功能在互联网行业认知度情况_移动开发周刊第270期</a></li>
+        			
+        			<li><span class="ico"></span><a href="http://news.51cto.com/art/201710/554434.htm" target="_blank" title="态牛-Tech Neo 9月刊：基于算法的IT运维">态牛-Tech Neo 9月刊：基于算法的IT运维</a></li>
+        			
+        			<li><span class="ico"></span><a href="http://network.51cto.com/art/201807/579190.htm" target="_blank" title="如何选择最合适的DDoS高防服务？ - 网络·安全技术周刊第353期">如何选择最合适的DDoS高防服务？ - 网络·安全技术周刊第353期</a></li>
+        			
+        			<li><span class="ico"></span><a href="http://news.51cto.com/art/201807/578936.htm" target="_blank" title="用Python来看3天破10亿的《我不是药神》到底神在哪_技术栈微信半月刊第21期">用Python来看3天破10亿的《我不是药神》到底神在哪_技术栈微信半月刊第21期</a></li>
+        			
+        			<li><span class="ico"></span><a href="http://www.cioage.com/art/201806/576803.htm" target="_blank" title="CIO选型：移动信息化建设中不能回避的四个模块">CIO选型：移动信息化建设中不能回避的四个模块</a></li>
+        			
+                </ul>
+            </div>
+        </div>
+        <div class="scrollTop">
+        <div class="codebox">
+	        <div class="incode clearfix">
+                <span>
+	                  <img src="https://s2.51cto.com/wyfs02/M01/97/8B/wKiom1kvpwSC9WMPAAB30fM3HWo214.jpg" width="100" height="100"/>
+	                  <p>51CTO技术栈</p>
+	            </span>
+	        	<span>
+	                 <img src="https://s2.51cto.com/oss/201803/02/e2d1e7fdb621d11417ce15afb696b5fe.jpg" width="100" height="100" />
+	                 <p>AI 推手</p>
+	            </span>
+	            <span>
+	                  <img src="https://s2.51cto.com/oss/201803/02/f7b57554d22701f4042f8be0ca144782.jpg" width="100" height="100"/>
+	                  <p>CIO进化论</p>
+	            </span>
+	        </div>
+        </div>
+        </div><!--scrollTop end-->
+    </div>
+</div>
+<div class="cl"></div>
+<div class="footer mt70">
+	<ul class='info level center'>
+		<li class='element'>
+			<div class='tit'>
+				<b>51CTO旗下网站</b>
+			</div>
+			<ul class='list'>
+				<li><a href="http://www.51cto.com/" target="_blank">领先的IT技术网站 51CTO</a></li>
+				<li><a href="http://www.cioage.com" target="_blank">中国首个CIO网站 CIOage</a></li>
+				<li><a href="http://www.watchstor.com/" target="_blank">领先的中文存储媒体 WatchStor</a></li>
+				<li><a href="http://www.hc3i.cn/" target="_blank">中国首家数字医疗网站 HC3i</a></li>
+				<li><a href="http://zhijiapro.com/" target="_blank">区块链第一聚合媒体 zhijiapro</a></li>
+                <!--<li><a href="http://www.15120.cn/" target="_blank">康信移动医疗</a></li>-->
+			</ul>
+		</li>
+		<li class='element'>
+			<div class='tit'>
+				<b>51CTO.com</b>
+			</div>
+			<ul class='list'>
+				<li class="w50"><a href="http://www.51cto.com/about/aboutus_e.html" rel="nofollow" target="_blank">English</a></li>
+				<li class="w50"><a href="http://www.51cto.com/about/aboutus.html" rel="nofollow" target="_blank">关于我们</a></li>
+				<li class="w50"><a href="http://www.51cto.com/about/zhaopin.html" rel="nofollow" target="_blank">诚聘英才</a></li>
+				<li class="w50"><a href="http://www.51cto.com/about/contactus.html" rel="nofollow" target="_blank">联系我们</a></li>
+                <li class="w50"><a href="http://www.51cto.com/about/history.html" rel="nofollow" target="_blank">网站大事</a></li>
+                <li class="w50"><a href="http://www.51cto.com/about/links.html" rel="nofollow" target="_blank">友情链接</a></li>
+                <li class="w50"><a href="http://www.51cto.com/php/guestbook" rel="nofollow" target="_blank">意见反馈</a></li>
+                <li class="w50"><a href="http://www.51cto.com/about/map.htm" rel="nofollow" target="_blank">网站地图 </a></li>
+			</ul>
+		</li>
+		<li class='copyright'>
+			<div class='botfx bdsharebuttonbox'>
+				<a href="#" class="qzone" data-cmd="qzone"></a>
+				<a href="#" class="sina" data-cmd="tsina"></a>
+				<a href="#" class="wx" data-cmd="weixin"></a>
+			</div>
+			<div class="con">
+            Copyright &#169; 2005-2018 51CTO.COM 京ICP证060544 版权所有 未经许可 请勿转载<br>
+　			北京市公安局海淀分局备案编号：110108002980号 <a href="http://www.51cto.com/license.html" target="_blank">营业执照</a><br>
+			京ICP备09067568号<br>
+			北京市海淀区中关村南1条甲1号ECO中科爱克大厦6-7层
+			</div>
+		</li>
+	</ul>
+    <div class="footer-link">
+    	<b>友情链接</b>：<a href="http://tech.sina.com.cn/" target="_blank">新浪科技</a>
+<a href="http://tech.qq.com/" target="_blank">腾讯科技</a>
+<a href="http://tech.163.com/" target="_blank">网易科技</a>
+<a href="http://tech.ifeng.com/" target="_blank">凤凰科技</a>
+<a href="http://www.ciweekly.com/" target="_blank">互联网周刊</a>
+<a href="http://www.mydrivers.com/" target="_blank">驱动之家</a>
+<a href="http://www.cnetnews.com.cn/" target="_blank">CNET科技资讯网</a>
+<a href="http://www.yicai.com/" target="_blank">一财网</a>
+<a href="http://www.techweb.com.cn/" target="_blank">TechWeb</a>
+<a href="http://www.iresearch.cn/" target="_blank">艾瑞网</a>
+<a href="http://www.chinaz.com/" target="_blank">站长之家</a>
+<a href="http://www.hiapk.com/" target="_blank">安卓网</a>
+<a href="http://www.sootoo.com/" target="_blank">速途网</a>
+<a href="http://www.cet.com.cn/" target="_blank">中国经济新闻网 </a>
+<a href="http://www.ithome.com/" target="_blank">IT之家</a>
+<a href="http://www.geekpark.net/" target="_blank">极客公园</a>
+    </div>
+    <div class="footer-img1">
+    	<a href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202006111400015" target="_blank"><img src="http://s7.51cto.com/wyfs02/M02/73/FD/wKiom1YLhe6Rz4cRAAAXp7l7roQ463.jpg"></a>
+    	<a href="https://ss.knet.cn/verifyseal.dll?sn=e13103011010043159hznr000000&ct=df&a=1&pa=0.6853703609667718" target="_blank"><img src="http://s6.51cto.com/wyfs02/M00/73/FA/wKioL1YLhfqzXuPxAAAWjtYhNDQ485.jpg"></a>
+    	<a href="http://zhanzhang.baidu.com/starfire/51cto" target="_blank"><img src="http://s3.51cto.com/wyfs02/M01/73/FD/wKiom1YLhe7RUP-3AAAUtjLqO50517.jpg"></a>
+    </div>
+    <div class="footer-img2"><img src="http://s2.51cto.com/wyfs02/M02/87/3B/wKioL1fYsqbzJ7jqAAATcM6l9p8769.png-wh_80x20-s_1964260368.png" width="80px" height="20px">提供计算与安全服务</div>
+</div>
+
+
+<style type="text/css">
+    #edu_adver{position:fixed; top:240px; left:50%; margin-left:-623px; width:100px; height:300px; border:1px solid #c4c4c6;}
+    #edu_adver .aderbox{position:relative;}
+    #edu_adver  .educlose{position:absolute; right:6px; top:6px; background:#655c4d; color:#fff; font-size:12px;  display:inline-block; width:13px; height:13px; text-align:center; line-height:13px; cursor:pointer;}
+    #edu_adver1  .educlose{position:absolute; right:6px; top:6px; background:#655c4d; color:#fff; font-size:12px;  display:inline-block; width:13px; height:13px; text-align:center; line-height:13px; cursor:pointer;}
+</style>
+<script>
+    $('#edu_adver .educlose').click(function () {
+        $("#edu_adver").hide();
+    });
+</script>
+
+<div style="display:none">
+<script src="https://home.51cto.com/index.php?s=/Index/getLoginStatus2015/reback/http%253A%252F%252Fwww.51cto.com%252F" charset='utf-8'></script>
+<span id="ad1">
+  <script src="https://images.51cto.com/images/home/js/ad1.js"></script>
+  </span> <span id="ad2">
+  <script src="https://images.51cto.com/images/home/js/ad2.js"></script>
+  </span> <span id="ad3">
+  <script src="https://images.51cto.com/images/home/js/ad3.js"></script>
+  </span> <span id="ad4">
+  <script src="https://images.51cto.com/images/home/js/ad4.js"></script>
+  </span> <span id="ad5">
+  <script src="https://images.51cto.com/images/home/js/ad5.js"></script>
+  </span> <span id="ad6">
+  <script src="https://images.51cto.com/images/home/js/ad6.js"></script>
+  </span> <span id="ad7">
+  <script src="https://images.51cto.com/images/home/js/ad7.js"></script>
+  </span> <span id="ad8">
+  <script src="https://images.51cto.com/images/home/js/ad8.js"></script>
+  </span> <span id="ad9">
+  <script src="https://images.51cto.com/images/home/js/ad9.js"></script>
+  </span> <span id="ad10">
+  <script src="https://images.51cto.com/images/home/js/ad10.js"></script>
+  </span> <span id="ad12">
+  <script src="https://images.51cto.com/images/home/js/ad12.js"></script>
+  </span> <span id="ad13">
+  <script src="https://images.51cto.com/images/home/js/ad13.js"></script>
+  </span>
+  <span id="ad14">
+  <script src="https://images.51cto.com/images/home/js/ad14.js"></script>
+  </span>
+    <span id="intelad">
+        <script type='text/javascript'><!--//<![CDATA[
+        var m3_u = (location.protocol=='https:'?'https://gg.51cto.com/www/delivery/ajs.php':'http://gg2.51cto.com/www/delivery/ajs.php');
+        var m3_r = Math.floor(Math.random()*99999999999);
+        if (!document.MAX_used) document.MAX_used = ',';
+        document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+        document.write ("?zoneid=984");
+        document.write ('&cb=' + m3_r);
+        if (document.MAX_used != ',') document.write ("&exclude=" + document.MAX_used);
+        document.write (document.charset ? '&charset='+document.charset : (document.characterSet ? '&charset='+document.characterSet : ''));
+        document.write ("&loc=" + escape(window.location));
+        if (document.referrer) document.write ("&referer=" + escape(document.referrer));
+        if (document.context) document.write ("&context=" + escape(document.context));
+        if (document.mmm_fo) document.write ("&mmm_fo=1");
+        document.write ("'><\/scr"+"ipt>");
+        //]]>--></script><noscript><a href='//gg1.51cto.com/www/delivery/ck.php?n=a9d27505&cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='//gg.51cto.com/www/delivery/avw.php?zoneid=984&cb=INSERT_RANDOM_NUMBER_HERE&n=a9d27505' border='0' alt='' /></a></noscript>
+
+    </span>
+</div>
+<div style="display:none">
+	<span id="fx_text" data=""></span>
+	<span id="fx_url" data=""></span>
+	<span id="fx_pic" data=""></span>
+</div>
+<div style="display:none">
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F110fc9b2e1cae4d110b7959ee4f27e3b' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</div>
+<script type="text/javascript" src="https://static3.51cto.com/51cto/cms/homepage/2015/js/home.js"></script>
+<script type="text/javascript" src="https://static4.51cto.com/51cto/cms/homepage/2015/js/ajax.js"></script>
+<script>
+$("div.home-left-list ul li").each(function() {
+	 $(this).bind('mouseover', function() {
+	    share_pic = $(this).find("div.pic img").attr("src");
+	    share_text = $(this).find("div.rinfo a:eq(0)").text();
+	    share_url = $(this).find("div.rinfo a:eq(0)").attr("href");
+	    $('#fx_text').attr('data', share_text);
+	    $('#fx_url').attr('data', share_url);
+	    $('#fx_pic').attr('data', share_pic);
+	});
+});
+$(function () {
+	$('.botfx a').mouseover(function () {
+		$('#fx_text').attr('data', '51CTO.COM - 技术成就梦想 - 中国领先的IT技术网站');
+	    $('#fx_url').attr('data', 'http://www.51cto.com');
+	    $('#fx_pic').attr('data', "https://static2.51cto.com/51cto/cms/homepage/2015/images/logo.gif");
+	});
+});
+window._bd_share_config = {
+		common : {
+			onBeforeClick: function(cmd,config){
+				return {"bdText":$('#fx_text').attr('data'),"bdUrl":$('#fx_url').attr('data'),"bdPic":$('#fx_pic').attr('data')}
+			}
+		},
+		share : [{
+			"bdSize" : 24
+		}]
+
+	};
+with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+<script>document.getElementById('intel_ad').innerHTML = document.getElementById('intelad').innerHTML</script>
+<script src="https://logs.51cto.com/rizhi/count/count.js"></script>
+<div style="display:none">
+    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260762011'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1260762011%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+</div>
+</body>
+</html>

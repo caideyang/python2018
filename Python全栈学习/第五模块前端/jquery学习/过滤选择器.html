@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    <li>中国</li>
+    <li>美国</li>
+    <li>入帮</li>
+    <li>水电费</li>
+    <li>些许</li>
+    <li>与</li>
+    <li>确认过</li>
+    <li>很好的</li>
+    <li>阿斯蒂芬</li>
+</ul>
+
+
+<script type="application/javascript" src="jquery-3.3.1.js"></script>
+<script type="application/javascript">
+    $(function () {
+        $('li:odd').css("color",'red');
+        $('li:even').css("color",'green');
+        $('li:gt(5)').css("font-size",'25px');
+        $('li:eq(5)').css("font-size",'80px');
+        $('li:lt(5)').css("background-color",'gray');
+        $('li:first').css("background-color",'blue');
+        $('li:last').css("background-color",'blue');
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定时器</title>
+</head>
+<body>
+<button id="btn">提交</button>
+<script>
+    function hello() {
+        // alert("可以在这里执行定时器任务。");
+        console.log("设置5秒执行一次的函数");
+    }
+    // window.clearTimeout(t1);
+    var oBtn = document.getElementById("btn");
+    oBtn.onclick = function () {
+        console.log("btn....");
+        // var t1 = window.setTimeout(hello,10000);
+        // var t2 = window.setTimeout("hello()",10000);
+        setInterval('hello()',5000);
+        console.log("over....");
+
+    };
+</script>
+</body>
+</html>

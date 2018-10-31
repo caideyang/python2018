@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.login-box{
+    width: 450px;
+    background: #f9f9f9;
+    font-size: 12px;
+    margin: 100px auto;
+    padding: 10px;
+    border: 1px solid green;
+}
+.box2{
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.lable-left{
+    float: left;
+    text-align: right;
+    width: 80px;
+}
+.input-right{
+    float: left;
+    width: 300px;
+}
+input{
+    width: 250px;
+    height: 25px;
+}
+.vcode-div input{
+    width: 125px;
+
+}
+.vcode-div button{
+    width: 120px;
+}
+.box2 .check{
+    width: 18px;
+    line-height: 45px;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.submit-btn{
+    height: 40px;
+    background: #2bbfe7;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+.box2 .check{
+    height: 16px;
+    line-height: 16px;
+}
+a{
+    text-decoration: none;
+}
+.verify-input{
+    color: red;
+    font-size: 12px;
+}

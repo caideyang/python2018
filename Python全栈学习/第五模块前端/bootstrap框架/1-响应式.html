@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Title</title>
+    <!--<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7/css/bootstrap.css">-->
+    <style type="text/css"></style>
+    <!--<script type="text/javascript" src="./js/jquery-3.3.1.js"></script>-->
+</head>
+<body>
+<script>
+    var str = "Hello World!";
+    var reg1 = new RegExp('o1','ig'); //参数1：正则表达式，不能有空格；参数2：g:全局匹配，找到所有的匹配项；i：忽略大小写
+    // var reg2 = /o/gi; //和上面的匹配项等价
+    // console.log(reg1);
+    // // console.log(reg2);
+    console.log(str.search(reg1)); //查找reg1匹配项在str中的第一次出现的位置,如果没有返回-1
+    // console.log(reg1.test(str));  //校验reg1匹配项是否在str中，返回true或者false
+    // console.log(reg1.exec(str));  //根据匹配项返回数组，否则返回null
+    // console.log(str.match(reg1)); //在字符串中检索指定的值，成功将结果返回到数组中，否则返回null
+    // console.log(str.replace(reg1,'E')); //HellE WErld!   替换与正则表达式匹配的字段，返回新的字符串，不设置全局g时只替换第一个。
+    // // console.log(str.split(reg1)) //[ "Hell", " W", "rld!" ]  根据匹配项进行切割字符串，返回一个数组
+    // var reg1 = /[A-Z]*/g;
+    // var str1 = "sdfsdfsdfHsdfsdfsdfas";
+    // var str2 = "asfsdfsdfsfsdfsdf";
+    // var str3 = "AsdfsdfdfD";
+    // var str4 = "sdfsdfsdfsd13234";
+    // console.log(reg1.test(str1));
+    // console.log(reg1.test(str2));
+    // console.log(reg1.test(str3));
+    // console.log(reg1.test(str4));
+    // var reg2 = /^\s*\s$/g;
+    //
+    // var str = "     abcdefg     ";
+    // str = str.replace(/^\s+/g , '').replace(/\s+$/g,'');//去除字符串左右两边的空格
+    // console.log(str.length);
+    // console.log(str.replace(/^\s+/g , '').replace(/\s+$/g,'').length); //去除字符串左右两边的空格
+    // var reg2 = /^1\d{10}$/; //匹配手机号，以1开头的11位数字
+    // console.log(reg2.test("1231223344a"));//false
+    // console.log(reg2.test("13661462864"));//true
+    // console.log(reg2.test("136614628641"));//false
+
+    // var reg3 = /^[a-zA-Z0-9]\w*@[a-zA-Z0-9]+\.[a-z]+$/;
+    // var reg3 = new RegExp("^[a-z0-9]+([._\\-]*[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z]+$"); //验证邮箱正则表达式
+    // console.log(reg3.test("deyang@163.com"));   //true
+    // console.log(reg3.test("deyang_1@163.wangyi_134.com")); //true
+    // console.log(reg3.test("deyang-1@163.com")); //true
+    // console.log(reg3.test("_deyang@163.com"));  //false
+    // console.log(reg3.test("deyang@163.com1"));  //false
+
+    var reg4 = /^0\d{2,3}-?\d{7,8}$/; //匹配电话号码
+    console.log(reg4.test("01111-12344556")); //false
+    console.log(reg4.test("0111-12344556"));  //true
+    console.log(reg4.test("01-1234455"));     //false
+    console.log(reg4.test("011-12345516"));   //true
+    console.log(reg4.test("01234551111"));   //true
+    console.log(reg4.test("012355111111111"));   //false
+    console.log(reg4.test("012355111"));   //false
+
+
+</script>
+
+</body>
+</html>

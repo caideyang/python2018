@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        button {
+            margin-left: 10px;
+            width: 80px;
+            height: 30px;
+            line-height: 30px;
+            border: 1px solid gray;
+            cursor: pointer;
+
+        }
+        button.active{
+            background-color: #34ff2c;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <button>选项一</button>
+    <button>选项二</button>
+    <button>选项三</button>
+    <button>选项四</button>
+    <button>选项五</button>
+    <button>选项六</button>
+</div>
+<script>
+    oBtns = document.getElementsByTagName('button');
+    for (var i=0;i <oBtns.length;i ++){
+        oBtns[i].onmouseover = function () {
+            // console.log("onmouseover");
+            this.className = 'active';
+        }
+        oBtns[i].onmouseout = function () {
+            this.className = '';
+        }
+    }
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul id="ul1">
+    <li>sdfsf</li>
+    <li id="li1"><ol>
+        <li id="li2">sdfsdfsfsf</li>
+        <li>sdfsdfsfsf</li>
+        <li>sdfsdfsfsf</li>
+        <li>sdfsdfsfsf</li>
+    </ol></li>
+    <li>sdfsf</li>
+    <li>sdfsf</li>
+    <li>sdfsf</li>
+</ul>
+<script type="application/javascript" src="jquery-3.3.1.js"></script>
+<script type="application/javascript">
+    $(function () {
+       $("#ul1").find("li").css("color",'red');
+       // $("ul").find('ol').css("background",'gray');
+       // $('ul').children('li').css("background",'yellow');
+       // $('#li1').siblings('li').css("background",'yellow');
+       $("li").eq(5).css("background",'gray');
+    });
+</script>
+
+</body>
+</html>

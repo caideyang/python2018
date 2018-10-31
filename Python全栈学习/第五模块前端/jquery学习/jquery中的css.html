@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        #pbox{
+            width: 300px;
+            height: 200px;
+            margin: 20px auto;
+            background: grey;
+            position: relative;
+        }
+        #cbox{
+            width: 100px;
+            height: 100px;
+            margin-left: 50px;
+            margin-top: 10px;
+            background: green;
+            position:absolute;
+        }
+    </style>
+</head>
+<body>
+<div id="pbox">
+    <div id="cbox"></div>
+    <button>获取数据</button>
+</div>
+
+<script type="application/javascript" src="jquery-3.3.1.js"></script>
+<script>
+    $(function () {
+        $("button").click(function () {
+            // console.log($("#cbox").position());
+            $("#cbox").offset().height=100;
+            console.log($("#cbox").offset());
+            // console.log($("#cbox").position());
+        });
+    });
+</script>
+</body>
+</html>

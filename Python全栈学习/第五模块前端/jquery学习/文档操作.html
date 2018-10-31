@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button>添加</button>
+<button>按钮</button>
+<button>按钮</button>
+<button>按钮</button>
+<ul>
+    <li id="app1">hello1</li>
+    <li id="app2">hello2</li>
+    <li id="app3">hello3</li>
+</ul>
+<!--<ul></ul>-->
+<h4>111111111</h4>
+<h4>222222222</h4>
+<h4>333333333</h4>
+<h4>444444444</h4>
+<script type="application/javascript" src="jquery-3.3.1.js"></script>
+<script>
+    $(function () {
+        $('button').click(function () {
+            // console.log("heheh");
+            // var oli = document.createElement('li');
+            // oli.innerHTML = '哈哈哈';
+            // //jquery中的dom操作
+            // //1.append(content)追加  往父元素中添加新的元素
+            // //content:string | element | jquery元素
+            // $('ul').append('<li>1233</li>');
+            // $('ul').append(oli);
+            // //如果直接的内容是当前页面中的某些元素，那么这些元素将从原位置上消失。简言之，就是一个移动操作
+            // $('ul').append($('#app'));
+            // $('<li>天王盖地虎</li>').appendTo($('ul')).addClass('hu')
+            // $('ul').prepend('<li>我是第一个</li>');
+            // $('<a href="#">路飞学诚</a>').prependTo('ul')
+            // $('ul').after('<h4>我是一个h3标题</h4>');
+            // $('<h5>我是一个h2标题</h5>').insertAfter('ul');
+            //
+            // $('ul').before('<h1>我是一个h1标题</h1>');
+            // $('<h1>我是一个h2标题</h1>').insertBefore('ul');
+            // $("#app1").clone(true).insertBefore('button');
+            // $("li").replaceWith("<li>HELLO1</li>");
+            // $("li").replaceWith("<a href=’’>HELLO1</a>"); //将所有li标签替换为a标签
+
+            // $("#app2").replaceWith($("button")); //将id为app2的元素替换为button对应的元素
+            // $('#app1').replaceAll('h4') //使用'#app1'元素对应的元素 替换掉h4的元素
+
+            // $("ul").remove();
+
+            //  var $btn = $('button').detach();
+            //  // 此时按钮能追加到ul中
+            //  $('ul').append($btn);
+
+            // $("ul").append($('button'));
+
+            $("ul").empty();
+
+        });
+    })
+</script>
+</body>
+</html>

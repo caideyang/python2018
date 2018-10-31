@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="">
+    <style type="text/css"></style>
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+</head>
+<body>
+<div>
+    <button>按键</button>
+</div>
+
+<script type="text/javascript">
+    //连续单击两次的时间间隔小于300毫秒，则系统认为是双击；默认情况下依然会执行2次单击的事件。
+    //创建一个定时器，设置单击以后300毫秒再执行事件；双击，则清除该定时器，定时器内事件不执行，避免双击时继续执行单击的事件。
+    var oTimer;
+    $(function () {
+        $('button').click(function (event) {
+            // clearTimeout(oTimer);
+            oTimer = setTimeout(function () {
+                // console.log(event);
+                // console.log(event.currentTarget.innerText);
+                console.log("单击事件");
+            },300);
+
+        });
+        $('button').dblclick(function (event) {
+            // clearTimeout(oTimer);
+            console.log("双击事件");
+        });
+    });
+</script>
+</body>
+</html>

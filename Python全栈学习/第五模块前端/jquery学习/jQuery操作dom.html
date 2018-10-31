@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            margin: 10px auto;
+            width: 100px;
+            height: 100px;
+            border: 1px solid gray;
+            background-color: #5a9672;
+            text-align: center;
+            line-height: 100px;
+        }
+    </style>
+</head>
+<body>
+<div id="box">蔡德阳</div>
+<div class="box">程万清</div>
+<div>蔡锦程</div>
+<script type="application/javascript" src="jquery-3.3.1.js">
+
+</script>
+<script>
+    //dom事件的三步：获取事件源、 事件驱动、事件执行
+    //入口文件
+    $(function () {
+        //获取事件源：$('div')
+        //事件驱动：click()
+       $('div').click(function () {
+           //内部自动遍历该jquery伪数组下面的div对象
+           //this是遍历得到的js对象
+           console.log(this.innerText);
+           // alert($(this).text());
+           //将this转换为jquery对象，并执行jquery对象的方法hide或者text
+           $(this).hide();
+       });
+    });
+</script>
+
+</body>
+</html>

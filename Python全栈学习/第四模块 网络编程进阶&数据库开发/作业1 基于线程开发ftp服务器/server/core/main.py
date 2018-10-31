@@ -39,7 +39,6 @@ class FTPServer(object):
         print("Starting server on %s:%s" % (settings.HOST, settings.PORT))
         while True:
             conn, client_addr = self.socket.accept()
-            # t = Thread(target=self.task, args=(conn, client_addr))
             self.pool = ThreadPoolExecutor(settings.MAX_CLIENT_COUNT) #  settings.MAX_CLIENT_COUNT  5
             self.pool.submit(self.task, conn, client_addr)
             self.q.put(conn)

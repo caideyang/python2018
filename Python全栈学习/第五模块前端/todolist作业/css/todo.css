@@ -1,0 +1,129 @@
+*{
+    /*清除默认格式*/
+    margin: 0;
+    padding: 0;
+}
+.todo-main{
+    /*position: absolute;*/
+    width: 800px;
+    height: auto;
+    /*border: 1px solid gray;*/
+    margin: 20px auto;
+}
+.add-todo{
+    width: 800px;
+    margin: 10px auto;
+}
+input{
+    font-size: 16px;
+}
+
+#task_content{
+    width: 74%;
+    height: 30px;
+    border: 1px solid green;
+    /*font-size: 16px;*/
+}
+#add-btn{
+    width: 25%;
+    height: 32px;
+    background-color: #5a9672;
+}
+#todo-task-div{
+    width: 800px;
+    /*position: absolute;*/
+    /*height: 200px;*/
+    /*margin: 10px auto;*/
+}
+
+#finished-task-div{
+    width: 800px;
+    /*position: absolute;*/
+    /*height: 200px;*/
+    /*margin: 10px auto;*/
+
+}
+.lists{
+    margin-top: 8px;
+    margin-bottom: 5px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    background-color: green;
+    border-radius: 5px;
+}
+
+li{
+    height: 32px;
+    line-height: 32px;
+    margin-bottom: 3px;
+}
+#todo_task_list .task{
+
+    /*font-size: 16px;*/
+    background-color: gray;
+    border-radius: 3px;
+
+}
+#finished_task_list .task{
+    background-color: #e0e0e0;
+    border-radius: 3px;
+}
+
+u{
+    color: #a44b25;
+    right: 580px;
+    position: absolute;
+
+}
+.counts{
+    color: red;
+}
+
+.black_overlay{
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index:1001;
+    -moz-opacity: 0.8;
+    opacity:.80;
+    filter: alpha(opacity=88);
+}
+.edit-task-content {
+    /*float: top;*/
+    display: none;
+    position: relative;
+    margin-top: -10%;
+    margin-left: 40%;
+    width: 20%;
+    height: 20%;
+    padding: 20px;
+    border: 3px solid #1994ff;
+    background-color: white;
+    z-index:1002;
+    overflow: auto;
+}
+.clear-list{
+    margin: 3px auto;
+}
+.edit-content{
+    width: 75%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+#edit-btn-div{
+    width: 50%;
+    margin: 0 auto;
+}
+
+button{
+    margin-top: 20px;
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    background-color: steelblue;
+}

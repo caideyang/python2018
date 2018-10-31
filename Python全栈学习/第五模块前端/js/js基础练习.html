@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="">
+    <style type="text/css"></style>
+    <!--<script type="text/javascript" src=""></script>-->
+</head>
+<body>
+
+<script type="text/javascript">
+    // function add() {
+    //     var a = 10;
+    //     var b = 20;
+    //     var c = a + b;
+    //     console.log(c);
+    // }
+    // add();
+    // console.log(Boolean(null));
+    // console.log(Boolean(0));
+    // console.log(Boolean(undefined));
+    // console.log(Boolean(''));
+    // console.log(Boolean(false));
+    // //上面这些输出都是false
+    // console.log(Boolean([])); //true
+    // console.log(Boolean({})); //true
+    // console.log(typeof "123");  //String
+
+    //强制类型转换
+    // var a = 10;
+    // var b  = String(a);
+    // var c = Number(b);
+    // console.log(typeof a ,typeof b,typeof c);
+    //
+    // var  stringNum = '789.123wadjhkd';
+    // var num2 =  Number(stringNum);
+    // console.log(num2); //NaN  Not a Number 但是一个number类型
+    //
+    // var b = 5/0;
+    // console.log(b); //Infinity 无限大
+    // console.log(typeof b); //number 类型
+
+    //流程控制
+    // function f(i) {
+    //     if (i >90){
+    //         console.log("A+");
+    //     } else if (i>80){
+    //         console.log("B+");
+    //     }else {
+    //         console.log("C");
+    //     }
+    // }
+    // f(91);
+
+    // function get_sum(n) {
+    //     sum = 1;
+    //     for (var i = 1; i<=n; i++ ){
+    //         sum *= i;
+    //     }
+    //     console.log(sum);
+    // }
+    // get_sum(35);
+
+    // function f(n) {
+    //     switch (n % 5) {
+    //         case 1:
+    //             console.log("case 1");
+    //             break;
+    //         case 2:
+    //             console.log("case 2");
+    //             break;
+    //         case 3:
+    //             console.log("case 3");
+    //             break;
+    //         default:
+    //             console.log("case 4");
+    //             break;
+    //     }
+    // }
+    // f(12);
+    // var n = 10;
+    // var sum ;
+    // while (n!=0){
+    //     sum += n;
+    //     n--;
+    // }
+    // console.log(sum);
+
+    // //数组操作
+    // var north = ['北京','山东','天津'];
+    // var south = ['东莞','深圳','上海'];
+    // // north = north.concat(south);  //合并数组[ "北京", "山东", "天津", "东莞", "深圳", "上海" ]
+    // console.log(north.join("-->"));  //北京-->山东-->天津
+    // console.log(north.pop(),north) //天津  [ "北京", "山东" ] 从数组最后取出一个元素
+    // south.push("杭州"); //往数组最后一位插入一个元素
+    // console.log(south);
+    // south.reverse();// 数组翻转
+    // console.log(south);// [ "杭州", "上海", "深圳", "东莞" ]
+    //
+    // var names = ['alex','xiaoma','tanhuang','abngel'];
+    // names.sort(); //根据数组中元素首字母进行排序
+    // console.log(names);// [ "abngel", "alex", "tanhuang", "xiaoma" ]
+    // console.log(names.slice(1,3)) // [ "alex", "tanhuang" ] 切片，顾头不顾尾
+    //
+
+
+    //字符串操作
+    var S = "abcdefghijkLmnopqrsTuvwxyz";
+    console.log(S.charAt(4)); //e  返回索引为4的字母的值，
+    console.log(S.concat("123"));// abcdefghijklmnopqrstuvwxyz123 字符串拼接
+    console.log(S.match(/abc/g)); //Array [ "abc" ],正则表达式匹配
+    console.log(S.replace('abc','ABC'));// ABCdefghijklmnopqrstuvwxyz 字符串替换
+    console.log(S.search("bc")); //1 匹配成功，返回匹配字符的开始索引，匹配失败返回-1
+    console.log(S.slice(3,9));//defghi 切片
+    console.log(S.split('de',2)); //切片，返回一个数组，第二个元素限制数组的长度
+    console.log(S.substr(2,5));//cdefg //从第一个元素对应的索引开始截取，截取第二个元素对应的长度的字符串
+    console.log(S.toUpperCase()); // ABCDEFGHIJKLMNOPQRSTUVWXYZ 返回大写字符串
+    console.log(S.toLowerCase()); //返回小写字符串
+
+
+
+    //1.将number类型转换成字符串类型
+    var num = 132.32522;
+    var numStr = num.toString();
+    console.log(typeof numStr);
+    //四舍五入
+    var newNum = num.toFixed(2);
+    console.log(newNum);
+
+
+
+</script>
+</body>
+</html>

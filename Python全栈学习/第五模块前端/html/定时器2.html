@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <ul style="list-style: none">
+        <li id="time_id"></li>
+    </ul>
+</div>
+<script>
+    //实时刷新  时间单位为毫秒
+    setInterval('refreshQuery()',1000);
+    /* 刷新查询 */
+    function refreshQuery(){
+        // console.log(Date().toLocaleString());
+        var oTime = document.getElementById("time_id");
+        oTime.innerText = Date().toLocaleString();
+
+        // window.location.reload();  //刷新
+    }
+</script>
+</body>
+</html>

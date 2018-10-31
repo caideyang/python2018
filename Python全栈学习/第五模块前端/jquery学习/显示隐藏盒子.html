@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        button{
+            width: 50px;
+            height: 30px;
+            background: #34ff2c;
+        }
+        #box{
+            margin: 20px;
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+            background: #ff0000;
+            display: none;
+        }
+
+    </style>
+</head>
+<body>
+
+<button value="显示" name="btn">显示</button>
+<div id="box">
+
+</div>
+
+<script type="application/javascript" src="jquery-3.3.1.js"></script>
+<script type="application/javascript">
+    $(function () {
+        $("button").click(function () {
+            $("#box").toggle(300,function () {
+                $(this).text("盒子出来了");
+                if ($("button").text()=="显示"){
+                    $("button").text("隐藏");
+                    $("button").css("background",'gray');
+                }else{
+                    $("button").text("显示");
+                    $("button").css("background",'#34ff2c');
+
+                }
+            });
+        });
+    });
+</script>
+</body>
+</html>

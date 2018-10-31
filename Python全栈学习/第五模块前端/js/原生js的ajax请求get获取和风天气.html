@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="">
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            width: 400px;
+            height: 500px;
+            margin: 10px auto;
+            padding: 10px;
+            border: 1px solid grey;
+            /*background: grey;*/
+        }
+        .weather-search{
+            margin-top: 10px;
+            width: 100%;
+        }
+        .city-input{
+            float: left;
+            margin-right: 20px;
+
+        }
+        .city-btn{
+            float: right;
+            margin-right: 10px;
+        }
+        input{
+            width: 250px;
+            height: 40px;
+            line-height: 20px;
+        }
+        .sub-btn{
+            width: 100px;
+            height: 42px;
+        }
+        .result-title{
+            float: left;
+            width: 100%;
+            margin-top: 5px;
+            text-align: center;
+            font-size: 20px;
+        }
+        .weather-result{
+            float: left;
+            width: 100%;
+            margin-top: 10px;
+            /*background: #00BCD4;*/
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <div class="weather-search">
+        <div class="city-input">
+            <input type="text" name="city" class="city" placeholder="请输入要查询的城市">
+        </div>
+        <div class="city-btn">
+            <button class="sub-btn" name="btn">查询</button>
+        </div>
+
+    </div>
+    <div class="result-title">
+        天气查询如下：
+    </div>
+    <div class="weather-result">
+    </div>
+</div>
+
+<script type="text/javascript">
+    //步骤一:创建异步对象
+
+    var obtn = document.getElementsByClassName("sub-btn")[0];
+    obtn.onclick = function () {
+        var city = document.getElementsByClassName("city")[0].value;
+        console.log(city);
+        var ajax = new XMLHttpRequest();
+        //步骤二:设置请求的url参数,参数一是请求的类型,参数二是请求的url,可以带参数,动态的传递参数city到服务端
+        ajax.open('get', 'https://free-api.heweather.com/s6/weather/now?location='+city+'&key=4693ff5ea653469f8bb0c29638035976');
+        //发送请求
+        ajax.send();
+        //步骤四:注册事件 onreadystatechange 状态改变就会调用
+        ajax.onreadystatechange = function () {
+            ////步骤五 如果能够进到这个判断 说明 数据 完美的回来了,并且请求的页面是存在的
+            if (ajax.readyState==4 && ajax.status==200){
+                //输出获取到的结果
+                // console.log(ajax.responseText);
+                // var weather_reslut = ajax.responseText;   //string类型
+                var json_weather_result = JSON.parse(ajax.responseText); //将string类型的json串转换为json对象
+                // console.log(weather_result);
+                var result = json_weather_result.HeWeather6[0];
+                console.log(result);
+                var weather_content = document.getElementsByClassName("weather-result")[0];
+                var city_name = city;
+                if (result.status == 'ok'){
+                    var city_name = result.basic.location;
+                    var parent_city = result.basic.parent_city || "无";
+                    var province = result.basic.admin_area || result.basic.parent_city || "无";
+                    var update_time = result.update.loc;
+                    var fl = result.now.fl;
+                    var tmp = result.now.tmp;
+                    var cond_code = result.now.cond_code;
+                    var cond_txt = result.now.cond_txt;
+                    var wind_dir = result.now.wind_dir;
+                    var wind_sc = result.now.wind_sc;
+
+                    var weather_html =`<div>查询城市：<span>${city_name}</span></div>
+                                        <div>上级城市：<span>${parent_city}</span></div>
+                                        <div>所在省份：<span>${province}</span></div>
+                                        <div>天气情况：<span>${cond_txt}</span></div>
+                                        <div><img src="https://cdn.heweather.com/cond_icon/${cond_code}.png" alt="" id="weather-img"></div>
+                                        <div>风向：<span>${wind_dir}</span></div>
+                                        <div>风力：<span>${wind_sc}级</span></div>
+                                        <div>温度：<span>${tmp}℃</span></div>
+                                        <div>体感温度：<span>${fl}℃</span></div>
+                                        <div>上次更新时间：<span>${update_time}</span></div>
+                    `;
+                    weather_content.innerHTML = weather_html;
+                    // console.log(weather_html);
+                }else {
+                    console.log("城市不存在？");
+                    weather_content.innerHTML = `<span style="color:red;">城市【${city_name}】不存在！</span>`;
+                    console.log("城市不存在！");
+                }
+                // console.log(weather_result.HeWeather6[0].update.loc);
+            }
+        }
+    };
+
+</script>
+<!--
+{
+	"HeWeather6": [{
+		"basic": {
+			"cid": "CN101180601",
+			"location": "信阳",
+			"parent_city": "信阳",
+			"admin_area": "河南",
+			"cnty": "中国",
+			"lat": "32.12327576",
+			"lon": "114.07502747",
+			"tz": "+8.00"
+		},
+		"update": {
+			"loc": "2018-10-31 09:46",
+			"utc": "2018-10-31 01:46"
+		},
+		"status": "ok",
+		"now": {
+			"cloud": "0",
+			"cond_code": "100",
+			"cond_txt": "晴",
+			"fl": "15",
+			"hum": "46",
+			"pcpn": "0.0",
+			"pres": "1024",
+			"tmp": "16",
+			"vis": "20",
+			"wind_deg": "290",
+			"wind_dir": "西北风",
+			"wind_sc": "2",
+			"wind_spd": "6"
+		}
+	}]
+}
+-->
+</body>
+</html>

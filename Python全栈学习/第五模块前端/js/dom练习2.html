@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #box{
+            width: 100px;
+            height: 100px;
+            border: 2px solid blue;
+            background-color: gray;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+<button id="btn">显示</button>
+<script>
+    window.onload = function () {
+      var oBtn1 = document.getElementById('btn');
+      var oDiv = document.createElement('div');
+      var oP = document.createElement('p');
+      var oBtn2 = document.createElement('button');
+
+      oDiv.id = 'box';
+      oP.id = 'content';
+      oBtn2.id = 'btn2';
+      oP.innerText = "这是一个弹窗！";
+      oBtn2.innerText="隐藏";
+
+      oDiv.appendChild(oP);
+      oDiv.appendChild(oBtn2);
+
+      oBtn1.onclick = function () {
+          this.parentNode.insertBefore(oDiv,oBtn1);
+          // oBtn1.parentNode.removeChild(oBtn1);
+      };
+      oBtn2.onclick = function () {
+          oDiv.parentNode.removeChild(oDiv);
+          // oBtn1.parentNode.insertBefore(oBtn1,null);
+      };
+
+    };
+</script>
+</body>
+</html>

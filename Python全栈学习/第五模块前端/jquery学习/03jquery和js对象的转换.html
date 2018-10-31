@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #box1{
+            width: 120px;
+            height: 100px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+<div id="box1"></div>
+<div class="box2"></div>
+<script type="application/javascript" src="jquery-3.3.1.js"></script>
+<script type="application/javascript">
+    //jquery入口文件
+    $(function () {
+        //通过js获取div对象
+        var oDiv = document.getElementById("box1");
+        console.log(oDiv);
+        console.dir(oDiv);
+
+        //js对象转换为jquery对象
+        console.log($(oDiv));
+
+        //通过jquery获取div对象
+        console.log($('#box1'));
+
+        //jquery对象转换为js对象
+        console.log($('#box1').get(0));
+        console.log($("#box1")[0]);
+    });
+
+
+</script>
+
+</body>
+</html>

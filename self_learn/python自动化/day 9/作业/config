@@ -1,0 +1,32 @@
+{
+	"group1": {
+		"host_list": [{
+			"host-name": "linux-node3",
+			"port": 22,
+			"username": "root",
+			"password": "passwd",
+			"IP": "192.168.56.11"
+		}, {
+			"host-name": "linux-node2",
+			"port": 22,
+			"username": "root",
+			"password": "passwd",
+			"IP": "192.168.56.12"
+		}]
+	},
+	"group2": {
+		"host_list": [{
+			"host-name": "linux-node3",
+			"port": 22,
+			"username": "root",
+			"password": "passwd",
+			"IP": "192.168.56.13"
+		}, {
+			"host-name": "linux-node4",
+			"port": 22,
+			"username": "root",
+			"password": "passwd",
+			"IP": "192.168.56.14"
+		}]
+	}
+}

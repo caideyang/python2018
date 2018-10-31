@@ -106,15 +106,67 @@
         // student.name = 'caideyang';
         // student.age = 31;
         // console.log(student) //{ name: "caideyang", age: 31 }
-        function createObject(name, age) {
-            var obj = new Object();
-            obj.name = name;
-            obj.age = age;
-            return obj;
+        // function createObject(name, age) {
+        //     var obj = new Object();
+        //     obj.name = name;
+        //     obj.age = age;
+        //     return obj;
+        // }
+        // stu1 = createObject('caideyang', 31);
+        // stu2 = createObject('deyangcai', 31);
+        // console.log(stu1, stu2); //Object { name: "caideyang", age: 31 }   Object { name: "deyangcai", age: 31 }
+        // function Person(name,age) {
+        //     this.name = name;
+        //     this.age = age;
+        //     this.getname = function () {
+        //         console.log(this.name);
+        //     }
+        //     this.getage = function () {
+        //         console.log(this.age);
+        //     }
+        // }
+        // p = new Person('caideyang' , 31);
+        // p.getname(); // caideyang
+        // p.getage();  // 31
+        // console.log(p instanceof Person); // true
+        // console.log(p instanceof Object); // true
+
+        // function Person(name, age) {
+        //     this.name = name;
+        //     this.age = age;
+        // }
+        // Person.prototype.getname = function () {
+        //     alert(this.name);
+        // }
+        // Person.prototype.getage = function () {
+        //     console.log(this.age);
+        // }
+        // p = new Person('caideyang' , 31);
+        // p.getname(); // caideyang
+        // p.getage();  // 31
+        // console.log(p instanceof Person); // true
+        // console.log(p instanceof Object); // true
+
+        // var myDate = new Date();
+        // console.log(myDate.getDate()) //16
+        // console.log(Date()); //Tue Oct 16 2018 17:39:33 GMT+0800
+        // console.log(myDate.toDateString()); //Tue Oct 16 2018
+        // var jsonObj = {"name":"alex", "password":"123"};
+        // for (var key in jsonObj){
+        //     console.log(key,":", jsonObj[key]);
+        // }
+        // // name : alex
+        // // password : 123
+        var packJSON = [{"name":"alex", "password":"123"}, {"name":"wusir", "password":"456"}];
+        for (var i in packJSON){
+            for (var key in packJSON[i]){
+                // console.log(key,":",packJSON[i][key]); //name : alex
+                console.log(packJSON[i].name,':',packJSON[i].password) //alex : 123
+            }
         }
-        stu1 = createObject('caideyang', 31);
-        stu2 = createObject('deyangcai', 31);
-        console.log(stu1, stu2); //Object { name: "caideyang", age: 31 }   Object { name: "deyangcai", age: 31 }
+
+
+
 
 
 

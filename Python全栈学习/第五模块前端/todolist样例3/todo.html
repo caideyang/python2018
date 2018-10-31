@@ -1,0 +1,26 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body onload="initList();">
+<div class="todo">
+            <input type="text" placeholder="在此输入你将要做的事情按回车键结束" id="thing" class="thing-input" onkeypress="getKey();">
+            <input type="button" value="清除列表" class="clearList" onclick="delectAll();">
+            <br>
+            <br>
+            <br>
+
+
+            <section class="list">
+                <input type="checkbox" id="selectall" onclick="select_cancelAll();">选择全部
+     <ul class="list-item" id="listul">
+
+                </ul>
+            </section>
+
+        </div>
+		<script type="text/javascript" src="todo.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="">
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #father{
+            /*margin: 20px;*/
+            width: 200px;
+            height: 100px;
+            background: grey;
+        }
+        #son{
+            /*margin: 10px auto;*/
+            width: 80px;
+            height: 60px;
+            background: green;
+        }
+    </style>
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+</head>
+<body>
+<div id="father">
+    <div id="son">alex</div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $("#son").click(function (event) {
+            console.log("儿子的点击事件");
+            event.stopPropagation(); // 防止事件冒泡到DOM树上，也就是不触发的任何前辈元素上的事件处理函数。
+        });
+        $("#father").click(function () {
+            console.log("父亲的点击事件");
+        });
+        $("body").click(function () {
+            console.log("body的点击事件");
+        });
+        $(document).click(function () {
+            console.log("document的点击事件");
+        });
+    });
+    $(function () {
+        // console.log("hello");
+    })
+
+</script>
+</body>
+</html>
